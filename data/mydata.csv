@@ -1,0 +1,634 @@
+name,address,city,state,zip,age,hsenroll,crecord,smokes,drinks,parent
+Lecia Ogata,6001 East Molloy Road,Syracuse,NY,13211,14,1,0,0,1,1
+Annie Jamal,North Syracuse Public Library,North Syracuse,NY,13212,18,0,0,0,1,0
+Parker Merida,6726 Townline Road,Syracuse,NY,13211,15,1,1,0,0,0
+Domenic Mclelland,1543 South Salina Street,Syracuse,NY,13205,17,0,0,0,0,1
+Mable Candanoza,1603 Court Street,Syracuse,NY,13208,18,1,1,0,0,0
+Haydee Gushiken,627 West Genesee Street,Syracuse,NY,13204,16,1,0,1,1,1
+Bulah Ament,106 South Arterial Road,Syracuse,NY,13206,17,0,0,0,1,0
+Ranae Cappelli,1065 James Street,Syracuse,NY,13203,14,1,0,0,1,0
+Fredda Woodmansee,614 South Salina Street,Syracuse,NY,13202,14,0,1,1,0,0
+Aleen Dugan,636 Old Liverpool Road,Liverpool,NY,13088,15,1,1,0,1,1
+Apolonia Vandeusen,7000 East Genesee Street,Fayetteville,NY,13066,18,0,0,1,0,1
+Josette Bradish,112 Lancaster Place,Syracuse,NY,13210,18,0,0,0,0,0
+Chante Aquilino,112 Lancaster Place,Syracuse,NY,13210,17,0,0,0,1,0
+Luisa Lona,2513 James Street,Syracuse,NY,13206,14,0,0,0,0,0
+Christeen Nguyen,317 Allen Street,Syracuse,NY,13210,18,1,0,1,1,0
+Shanita Corpuz,406 Court Street,Syracuse,NY,13208,16,0,0,0,0,1
+Twila Holeman,530 Oak Street,Syracuse,NY,13203,16,1,0,0,1,1
+Elyse Pett,441 West Kirkpatrick Street,Syracuse,NY,13204,16,0,0,0,0,1
+Mathilda Russo,528 Oak Street,Syracuse,NY,13203,18,0,0,0,0,1
+Raelene Cutrer,530 Oak Street,Syracuse,NY,13203,14,0,0,1,0,1
+Nikita Favreau,2214 Amber Road,Marietta,NY,13110,14,1,1,0,0,1
+Clarisa Dibernardo,6725 Lyons Street,East Syracuse,NY,13057,15,1,1,0,1,1
+Karren Lettieri,6390 Fly Road,East Syracuse,NY,13057,17,0,1,0,1,0
+August Mcfarlin,2 Clinton Square,Syracuse,NY,13202,14,0,0,0,1,1
+Waldo Zendejas,120 East Washington Street ,Syracuse,NY,13202,14,1,0,1,0,1
+Shon Wilkin,344 West Genesee Street,Syracuse,NY,13202,14,1,0,1,0,1
+Jerald Burket,101 Richmond Avenue,Syracuse,NY,13204,18,0,1,1,0,0
+Christin Mebane,5900 North Burdick Street,East Syracuse,NY,13057,18,1,0,1,0,1
+Terra Cleary,6834 East Genesee Street,Fayetteville,NY,13066,17,0,0,0,0,0
+Sophie Patridge,7000 East Genesee Street,Fayetteville,NY,13066,14,1,1,1,0,1
+Celesta Hilbert,4583 North Street,Jamesville,NY,13078,16,0,0,1,1,0
+Lashandra Valley,5100 West Taft Road,Liverpool,NY,13088,16,0,0,0,0,0
+Stephany Sitton,6441 Route 80,Apulia Station,NY,13020,15,0,1,0,0,1
+Scarlet Bellanger,600 South Wilbur Avenue,Syracuse,NY,13204,14,0,1,1,1,0
+Mariann Cheng,635 James Street,Syracuse,NY,13203,17,0,1,0,1,0
+Jacalyn Halle,8100 Oswego Road,Liverpool,NY,13090,16,0,1,0,0,0
+Micaela Bassham,PO Box 126,Fayetteville,NY,13066,17,1,0,1,1,0
+Julio Lepak,1065 James Street,Syracuse,NY,13203,18,0,1,0,1,0
+Elroy Bradham,808 North Salina Street,Syracuse,NY,13208,15,1,1,0,1,0
+Antonette Alas,116 West Glen Avenue,Syracuse,NY,13205,17,1,1,0,0,0
+Ted Nunez,518 James Street,Syracuse,NY,13203,18,1,1,1,1,0
+Fritz Averette,29 East Oneida Street,Baldwinsville,NY,13027,14,0,0,0,1,0
+Elli Burnes,7312 Van Buren Road,Baldwinsville,NY,13027,14,0,1,0,0,1
+April Carbonaro,17 West Genesee Street,Baldwinsville,NY,13027,17,0,1,0,0,0
+Renate Gauer,8 Mechanic Street,Baldwinsville,NY,13027,16,0,0,0,0,1
+Joel Canaday,7911 Crego Road,Baldwinsville,NY,13027,17,1,0,0,0,1
+Ann Jacox,156 West Matson Avenue,Syracuse,NY,13205,14,1,1,0,1,1
+Alline Garay,1001 Park Avenue,Syracuse,NY,13204,17,0,0,0,1,1
+Chiquita Collington,8435 Loop Road,Baldwinsville,NY,13027,14,1,0,1,1,0
+Lecia Ogata,219 West Castle Street,Syracuse,NY,13205,15,0,0,1,1,1
+Annie Jamal,2717 Bellevue Avenue,Syracuse,NY,13219,14,0,0,1,0,1
+Parker Merida,346 North Midler Avenue #46,Syracuse,NY,13206,18,0,0,1,0,0
+Domenic Mclelland,6653 Kirkville Road,East Syracuse,NY,13057,18,1,0,0,1,1
+Mable Candanoza,815 Fay Road,Syracuse,NY,13219,16,1,0,1,0,1
+Haydee Gushiken,3129 James Street,Syracuse,NY,13206,15,0,1,0,0,0
+Bulah Ament,2656 Warners Road,Warners,NY,13164,15,1,1,1,0,0
+Ranae Cappelli,2500 Nunnery Road,Skaneateles,NY,13152,15,1,0,0,0,1
+Fredda Woodmansee,2100 East Fayette Street,Syracuse,NY,13224,15,1,0,1,0,1
+Aleen Dugan,420 East Genesee Street,Syracuse,NY,13202,14,0,1,0,0,1
+Apolonia Vandeusen,5395 Orangeport Road,Brewerton,NY,13029,16,1,0,1,0,1
+Josette Bradish,9625 Brewerton Road,Brewerton,NY,13029,18,0,1,1,0,0
+Chante Aquilino,Saint Francis Church,Bridgeport,NY,13030,16,0,0,1,1,1
+Luisa Lona,427 Main Street,Bridgeport,NY,13030,17,0,1,0,1,1
+Christeen Nguyen,7266 Buckley Road,North Syracuse,NY,13212,15,1,1,0,1,1
+Shanita Corpuz,953 James Street,Syracuse,NY,13203,15,1,0,1,0,1
+Twila Holeman,"Medical Center East, Suite 102B",East Syracuse,NY,13057,18,1,1,0,1,1
+Elyse Pett,23 Genesee Street,Camillus,NY,13031,16,0,0,0,1,1
+Mathilda Russo,5801 Newport Road,Camillus,NY,13031,18,1,0,0,1,1
+Raelene Cutrer,356 North Midler Avenue,Syracuse,NY,13206,16,0,0,1,1,1
+Nikita Favreau,5125 Highbridge Street,Fayetteville,NY,13066,16,0,0,0,0,0
+Clarisa Dibernardo,6315 Fly Road,East Syracuse,NY,13057,15,0,0,0,1,0
+Karren Lettieri,2100 East Genesee Street,Syracuse,NY,13210,16,0,1,1,0,1
+August Mcfarlin,4600 West Genesee Street,Syracuse,NY,13219,18,0,1,1,1,1
+Waldo Zendejas,923 North McBride Street,Syracuse,NY,13208,17,1,1,0,0,1
+Shon Wilkin,259 East Onondaga Street,Syracuse,NY,13202,14,1,1,0,1,0
+Jerald Burket,2105 West Genesee Street,Syracuse,NY,13219,18,0,1,0,1,1
+Christin Mebane,1654 West Onondaga Street,Syracuse,NY,13204,15,1,0,1,0,0
+Terra Cleary,2507 James Street,Syracuse,NY,13206,18,1,0,1,0,1
+Sophie Patridge,115 East Jefferson,Syracuse,NY,13202,14,1,1,0,1,1
+Celesta Hilbert,601 Tully Street,Syracuse,NY,13204,14,0,0,0,0,1
+Lashandra Valley,615 West Genesee Street,Syracuse,NY,13203,18,1,0,0,0,1
+Stephany Sitton,Town of Dewitt Community Room,East Syracuse,NY,13057,18,0,0,0,0,1
+Scarlet Bellanger,517 East Washington Street,Syracuse,NY,13202,16,0,0,1,0,1
+Mariann Cheng,Crouse Hospital,Syracuse,NY,13210,17,1,1,0,0,0
+Jacalyn Halle,518 James Street,Syracuse,NY,13203,17,0,1,1,1,1
+Micaela Bassham,116 Martin Luther King East,Syracuse,NY,13205,17,1,1,1,1,1
+Julio Lepak,3300 James Street,Syracuse,NY,13206,17,1,0,0,0,0
+Elroy Bradham,200 Cortland Avenue,Syracuse,NY,13205,15,0,1,0,1,0
+Antonette Alas,335 Valley Drive,Syracuse,NY,13207,17,1,0,0,1,1
+Ted Nunez,3649 Erie Boulevard,Syracuse,NY,13214,14,0,0,1,0,0
+Fritz Averette,2100 East Genesee Street,Syracuse,NY,13210,18,1,1,1,0,0
+Elli Burnes,6724 Thompson Road,Syracuse,NY,13211,18,0,0,1,0,1
+April Carbonaro,4645 Nixon Park Drive,Syracuse,NY,13215,15,0,0,0,0,0
+Renate Gauer,6245 Randall Road,Syracuse,NY,13214,16,0,0,1,0,0
+Joel Canaday,5701 East Circle Drive,Cicero,NY,13039,14,0,0,1,0,0
+Ann Jacox,1600 Teall Avenue,Syracuse,NY,13206,17,1,1,0,1,0
+Alline Garay,990 James Street,Syracuse,NY,13203,15,1,1,1,1,1
+Chiquita Collington,8377 Brewerton Road,Cicero,NY,13039,18,1,0,0,1,1
+Lecia Ogata,620 Erie Boulevard West,Syracuse,NY,13204,16,1,1,0,1,1
+Annie Jamal,233 East Washington Street,Syracuse,NY,13202,17,1,0,1,1,0
+Parker Merida,201 East Washington Street,Syracuse,NY,13202,15,1,0,0,0,1
+Domenic Mclelland,4383 Route 31,Clay,NY,13041,15,0,1,0,0,0
+Mable Candanoza,1223 Salt Springs Road,Chittenango,NY,13037,16,1,0,0,1,0
+Haydee Gushiken,5794 Widewaters Parkway,Syracuse,NY,13214,14,0,1,1,0,0
+Bulah Ament,7517 Morgan Road,Liverpool,NY,13090,17,1,1,1,1,0
+Ranae Cappelli,753 James Street,Syracuse,NY,13203,15,1,0,1,1,1
+Fredda Woodmansee,4465 East Genesee Street,Syracuse,NY,13214,15,1,1,1,1,0
+Aleen Dugan,PO Box 6182,Syracuse,NY,13217,18,0,0,0,0,0
+Apolonia Vandeusen,12-14 West Genesee Street,Baldwinsville,NY,13027,17,0,0,0,1,0
+Josette Bradish,"731 James Street, Suite 200",Syracuse,NY,13203,16,1,1,1,1,1
+Chante Aquilino,4612 South Salina Street,Syracuse,NY,13205,14,1,1,1,0,0
+Luisa Lona,195 Intrepid Lane,Syracuse,NY,13205,14,0,0,0,1,0
+Christeen Nguyen,1065 James Street,Syracuse,NY,13203,17,1,1,0,1,1
+Shanita Corpuz,Beacon Baptist Church,Clay,NY,13041,17,1,1,1,1,1
+Twila Holeman,5878 East Molloy Road,Mattydale,NY,13211,15,0,1,1,1,0
+Elyse Pett,960 James Street,Syracuse,NY,13203,17,0,0,1,1,1
+Mathilda Russo,Saint Alban's Episcopal Church,Syracuse,NY,13224,16,0,0,1,0,1
+Raelene Cutrer,PO Box 105,DeWitt,NY,13214,15,1,0,1,1,1
+Nikita Favreau,112 Dewitt Street,Syracuse,NY,13203,16,0,1,0,0,1
+Clarisa Dibernardo,6834 East Genesee Street,Fayetteville,NY,13066,16,1,0,1,0,0
+Karren Lettieri,216 West Manlius Street,East Syracuse,NY,13057,17,0,1,1,1,0
+August Mcfarlin,526 Old Liverpool Road,Liverpool,NY,13088,14,0,0,1,0,0
+Waldo Zendejas,2122 Erie Boulevard East,Syracuse,NY,13224,17,1,1,1,0,0
+Shon Wilkin,6311 Court Street Road,East Syracuse,NY,13057,14,1,0,1,0,0
+Jerald Burket,6311 Court Street Road,East Syracuse,NY,13057,16,0,1,0,0,1
+Christin Mebane,Call for location,Liverpool,NY,13088,16,1,1,1,1,1
+Terra Cleary,6006 Drott Drive,East Syracuse,NY,13057,14,0,0,1,1,1
+Sophie Patridge,Saint Rose of Lima Parish,North Syracuse,NY,13212,15,1,0,1,1,0
+Celesta Hilbert,100 South Salina Street,Syracuse,NY,13202,18,0,1,0,1,1
+Lashandra Valley,1228 Teall Avenue,Syracuse,NY,13206,17,1,0,0,1,1
+Stephany Sitton,315 South Crouse Avenue,Syracuse,NY,13210,16,1,1,1,0,1
+Scarlet Bellanger,531 East Genesee Street,Fayetteville,NY,13066,15,1,1,1,0,1
+Mariann Cheng,736 Irving Avenue,Syracuse,NY,13210,18,0,0,0,1,1
+Jacalyn Halle,600 East Genesee Street,Syracuse,NY,13202,15,0,0,0,1,0
+Micaela Bassham,916B Old Liverpool Road,Liverpool,NY,13088,17,0,1,1,0,0
+Julio Lepak,8195 Cazenovia Road,Manlius,NY,13104,18,0,0,1,1,0
+Elroy Bradham,4317 East Genesee Street,Syracuse,NY,13214,18,1,0,0,1,0
+Antonette Alas,3855 Watervale Road,Manlius,NY,13104,18,1,0,0,0,1
+Ted Nunez,2260 Oran Delphi Road,Delphi Falls,NY,13051,18,0,1,1,0,1
+Fritz Averette,428 South Main Street,North Syracuse,NY,13212,16,1,1,0,1,1
+Elli Burnes,420 East Genesee Street,Syracuse,NY,13208,15,0,0,0,0,1
+April Carbonaro,May Memorial Unitarian Universalist Society,Syracuse,NY,13214,15,1,1,0,0,1
+Renate Gauer,890 East Brighton Avenue,Syracuse,NY,13205,14,1,1,0,0,0
+Joel Canaday,50 Caton Drive,Syracuse,NY,13214,16,1,1,0,1,0
+Ann Jacox,1603 Court Street,Syracuse,NY,13208,16,0,1,1,0,0
+Alline Garay,Bishop Ludden High School,Syracuse,NY,13219,15,0,1,0,0,0
+Chiquita Collington,5900 North Burdick Street,East Syracuse,NY,13057,16,0,0,1,0,0
+Lecia Ogata,50 Presidential Plaza,Syracuse,NY,13202,18,1,0,0,0,1
+Annie Jamal,PO Box 5,Manlius,NY,13104,17,1,1,0,1,0
+Parker Merida,24 Corporate Circle,East Syracuse,NY,13057,15,1,1,1,1,1
+Domenic Mclelland,6440 New Venture Gear Drive,East Syracuse,NY,13057,14,1,0,0,1,1
+Mable Candanoza,First United Church of East Syracuse,East Syracuse,NY,13057,14,1,0,0,0,1
+Haydee Gushiken,204 North Center Street,East Syracuse,NY,13057,15,0,1,0,0,0
+Bulah Ament,407 Fremont Road,East Syracuse,NY,13057,17,0,0,1,1,1
+Ranae Cappelli,109 South Warren Street,Syracuse,NY,13202,17,0,1,0,1,1
+Fredda Woodmansee,4600 West Genesee Street,Syracuse,NY,13219,14,0,1,1,0,0
+Aleen Dugan,129 Sun Harbor Drive,Liverpool,NY,13088,14,1,0,1,1,1
+Apolonia Vandeusen,275 East Main Street,Elbridge,NY,13060,18,0,1,1,0,0
+Josette Bradish,960 Salt Springs Road,Syracuse,NY,13224,15,1,0,1,0,0
+Chante Aquilino,643 Park Avenue,Syracuse,NY,13204,14,1,1,1,0,0
+Luisa Lona,220 South Warren Street,Syracuse,NY,13202,18,0,0,0,1,0
+Christeen Nguyen,6500 New Venture Gear Drive,East Syracuse,NY,13057,18,0,1,0,0,0
+Shanita Corpuz,315 South Crouse Avenue,Syracuse,NY,13210,18,0,0,0,0,1
+Twila Holeman,522 Liberty Street,Syracuse,NY,13204,15,1,0,0,0,1
+Elyse Pett,1065 James Street,Syracuse,NY,13203,17,0,1,0,0,1
+Mathilda Russo,333 Butternut Drive,Syracuse,NY,13214,18,0,0,1,0,1
+Raelene Cutrer,1820 Lemoyne Avenue,Syracuse,NY,13208,17,1,0,0,1,1
+Nikita Favreau,305 North Geddes Street,Syracuse,NY,13204,18,1,0,0,1,1
+Clarisa Dibernardo,7825 Main Street,Fabius,NY,13063,18,1,1,1,0,1
+Karren Lettieri,1211 Mill Street,Fabius,NY,13063,16,1,0,0,1,1
+August Mcfarlin,4611 West Genesee Street,Syracuse,NY,13219,14,1,1,1,0,0
+Waldo Zendejas,3740 Midland Avenue,Syracuse,NY,13205,17,0,0,0,1,1
+Shon Wilkin,6142 Route 31,Cicero,NY,13039,14,0,1,0,1,0
+Jerald Burket,51 Carousel Lane,Baldwinsville,NY,13027,14,0,0,1,1,0
+Christin Mebane,2207 Burnet Avenue,Syracuse,NY,13206,14,1,1,0,0,1
+Terra Cleary,240 East Onondaga Street,Syracuse,NY,13202,17,0,0,0,0,0
+Sophie Patridge,620 Erie Boulevard West,Syracuse,NY,13204,18,0,0,0,0,1
+Celesta Hilbert,310 Herman Drive,Syracuse,NY,13212,17,1,0,1,0,1
+Lashandra Valley,425 East Genesee Street,Fayetteville,NY,13066,14,0,1,0,0,0
+Stephany Sitton,584 East Genesee Street,Fayetteville,NY,13066,17,0,0,0,1,0
+Scarlet Bellanger,7248 Highbridge Road,Fayetteville,NY,13066,14,0,1,1,0,1
+Mariann Cheng,8199 East Seneca Turnpike,Manlius,NY,13104,14,0,0,0,1,0
+Jacalyn Halle,10 River Street,Baldwinsville,NY,13027,14,0,0,1,0,1
+Micaela Bassham,5010 Campuswood Drive,East Syracuse,NY,13057,14,0,1,1,0,1
+Julio Lepak,6323 Fly Road,East Syracuse,NY,13057,14,0,1,1,1,0
+Elroy Bradham,30 Clinton Street,Jordan,NY,13080,18,1,0,1,1,0
+Antonette Alas,PO Box 413,Fayetteville,NY,13066,15,1,1,0,0,0
+Ted Nunez,Columbian Presbyterian Church,La Fayette,NY,13084,16,0,0,0,0,1
+Fritz Averette,24 Jordan Street,Skaneateles,NY,13152,17,0,0,0,1,1
+Elli Burnes,122 East Seneca Street,Manlius,NY,13104,14,0,1,1,1,0
+April Carbonaro,7066 Interstate Island Road,Syracuse,NY,13209,18,1,0,1,0,1
+Renate Gauer,108 Michaels Avenue,Syracuse,NY,13208,18,1,1,1,1,0
+Joel Canaday,800 North Salina Street,Syracuse,NY,13208,15,1,1,1,1,0
+Ann Jacox,351 South Warren Street,Syracuse,NY,13202,18,0,1,0,1,0
+Alline Garay,182 Edgehill Road,Syracuse,NY,13224,15,1,0,1,0,1
+Chiquita Collington,Trinity United Methodist Church,Clay,NY,13041,16,1,1,1,1,0
+Lecia Ogata,2105 West Genesee Street,Syracuse,NY,13219,16,0,1,1,1,1
+Annie Jamal,621 Skytop Road,Syracuse,NY,13244,18,0,1,0,1,1
+Parker Merida,5885 East Circle Drive,Cicero,NY,13039,16,0,0,1,1,0
+Domenic Mclelland,819 Madison Street,Syracuse,NY,13210,16,1,0,0,0,1
+Mable Candanoza,11 Albert Palmer Lane,Baldwinsville,NY,13027,14,1,1,0,1,1
+Haydee Gushiken,4600 West Genesee Street,Syracuse,NY,13219,18,0,1,1,1,1
+Bulah Ament,1 Walsh Circle,Syracuse,NY,13208,17,0,1,1,0,1
+Ranae Cappelli,309 South Main Street,Syracuse,NY,13212,18,1,1,0,1,1
+Fredda Woodmansee,306 Highland Avenue,Syracuse,NY,13203,16,0,0,0,1,0
+Aleen Dugan,4175 Old Winding Way,Syracuse,NY,13215,16,0,0,1,0,0
+Apolonia Vandeusen,PO Box 772,Syracuse,NY,13201,14,1,1,0,0,1
+Josette Bradish,2100 East Genesee Street,Syracuse,NY,13210,16,1,0,1,0,0
+Chante Aquilino,Minoa United Methodist Church,Minoa,NY,13116,14,1,1,0,1,0
+Luisa Lona,6606 Kinne Road,Syracuse,NY,13214,17,0,0,1,0,1
+Christeen Nguyen,5008 Brittonfield Parkway,East Syracuse,NY,13057,16,0,0,0,0,0
+Shanita Corpuz,4949 Velasko Road,Syracuse,NY,13215,14,1,0,0,0,0
+Twila Holeman,215 Wyoming Street,Syracuse,NY,13204,16,0,0,0,0,1
+Elyse Pett,113 Malden Road,Syracuse,NY,13211,14,1,1,0,1,1
+Mathilda Russo,713 Harrison Street,Syracuse,NY,13210,15,0,0,0,1,0
+Raelene Cutrer,4200 East Genesee Street,Syracuse,NY,13214,14,1,0,0,1,1
+Nikita Favreau,130 Chapel Drive,Syracuse,NY,13219,16,0,0,0,1,0
+Clarisa Dibernardo,1050 West Genesee Street,Syracuse,NY,13204,17,0,0,0,0,1
+Karren Lettieri,990 James Street,Syracuse,NY,13202,14,1,1,0,1,1
+August Mcfarlin,4500 Onondaga Boulevard,Syracuse,NY,13219,18,1,0,0,0,1
+Waldo Zendejas,7965 Oswego Road,Liverpool,NY,13090,14,1,0,0,1,0
+Shon Wilkin,1110 South State Street,Syracuse,NY,13202,14,1,0,0,1,1
+Jerald Burket,990 7th North Street,Liverpool,NY,13088,18,1,0,1,1,1
+Christin Mebane,3384 Howlett Hill Road,Syracuse,NY,13215,14,1,0,1,0,0
+Terra Cleary,4915 1/2  West Taft Road,Liverpool,NY,13088,18,1,0,1,0,0
+Sophie Patridge,831 James Street,Syracuse,NY,13203,18,1,1,0,1,1
+Celesta Hilbert,405 Gifford Street,Syracuse,NY,13204,18,0,0,1,1,0
+Lashandra Valley,310 Tulip Street,Liverpool,NY,13088,17,1,0,0,1,0
+Stephany Sitton,620 Madison Street,Syracuse,NY,13210,15,0,0,0,0,0
+Scarlet Bellanger,400 Salt Springs Street,Fayetteville,NY,13066,18,0,0,1,0,1
+Mariann Cheng,6221 Route 31,Cicero,NY,13039,15,1,1,0,0,1
+Jacalyn Halle,1010 James Street,Syracuse,NY,13203,15,0,1,0,1,0
+Micaela Bassham,222 Teall Avenue ,Syracuse,NY,13210,18,1,1,1,0,0
+Julio Lepak,620 West Genesee Street,Syracuse,NY,13204,16,1,1,0,1,1
+Elroy Bradham,PO Box 281,Jamesville,NY,13078,18,0,0,1,0,1
+Antonette Alas,259 East Onondaga Street,Syracuse,NY,13202,15,1,0,0,0,0
+Ted Nunez,2700 Bellevue Avenue,Syracuse,NY,13219,14,0,0,0,0,0
+Fritz Averette,6661 East Seneca Turnpike,Jamesville,NY,13078,15,0,1,0,0,1
+Elli Burnes,6845 Edinger Drive,Dewitt,NY,13214,16,0,0,0,1,0
+April Carbonaro,6486 East Seneca Turnpike,Jamesville,NY,13078,18,1,1,0,1,0
+Renate Gauer,4317 East Genesee Street,Syracuse,NY,13214,15,0,1,0,0,1
+Joel Canaday,1101 Erie Boulevard East,Syracuse,NY,13210,17,0,1,1,0,0
+Ann Jacox,106 Windham Drive,Syracuse,NY,13224,16,1,0,0,0,1
+Alline Garay,4016 Henneberry Road,Manlius,NY,13104,18,1,0,0,0,0
+Chiquita Collington,6315 Fly Road,East Syracuse,NY,13057,16,0,1,1,1,1
+Lecia Ogata,5016 West Genesee Street,Camillus,NY,13031,18,0,1,1,1,1
+Annie Jamal,7000 East Genesee Street,Fayetteville,NY,13066,15,1,1,0,0,1
+Parker Merida,5655 Thompson Road,Dewitt,NY,13214,14,1,1,1,1,0
+Domenic Mclelland,528 Oak Street,Syracuse,NY,13203,16,0,1,0,1,0
+Mable Candanoza,600 East Genesee Street,Syracuse,NY,13202,14,1,1,1,0,1
+Haydee Gushiken,250 Harrison Street Suite 300,Syracuse,NY,13202,15,0,0,1,0,1
+Bulah Ament,"100 Intrepid Lane, Suite 1D",Syracuse,NY,13205,17,1,1,0,1,0
+Ranae Cappelli,407 Tulip Street,Liverpool,NY,13088,16,0,0,0,1,0
+Fredda Woodmansee,1 North Hamilton Street,Jordan,NY,13080,17,1,0,0,0,0
+Aleen Dugan,9 Chappell Street,Jordan,NY,13080,18,1,0,1,0,0
+Apolonia Vandeusen,28 North Main Street,Elbridge,NY,13060,15,0,0,0,0,1
+Josette Bradish,112 Dewitt Street,Syracuse,NY,13203,17,1,0,1,0,0
+Chante Aquilino,1101 Burnet Avenue ,Syracuse,NY,13203,18,0,1,0,1,0
+Luisa Lona,3049 East Genesee Street,Syracuse,NY,13244,14,1,0,1,0,0
+Christeen Nguyen,650 South Terry Road,Syracuse,NY,13219,18,1,0,1,0,0
+Shanita Corpuz,7030 East Genesee Street,Fayetteville,NY,13066,16,0,0,0,0,1
+Twila Holeman,1118 Court Street,Syracuse,NY,13208,16,1,0,0,1,1
+Elyse Pett,201 Warren Street,Fayetteville,NY,13066,17,1,0,1,1,0
+Mathilda Russo,5900 North Burdick Street,East Syracuse,NY,13057,16,1,1,1,0,1
+Raelene Cutrer,7000 East Genesee Street,Fayetteville,NY,13066,17,0,0,1,1,1
+Nikita Favreau,5900 North Burdick Street,East Syracuse,NY,13057,17,0,0,1,0,1
+Clarisa Dibernardo,50 Presidential Plaza,Syracuse,NY,13202,17,0,0,0,0,0
+Karren Lettieri,712 Hamilton Street,Syracuse,NY,13204,15,0,0,0,1,0
+August Mcfarlin,"475 Irving Avenue, #410",Syracuse,NY,13210,16,1,0,1,1,1
+Waldo Zendejas,6225 Kirkville Road,Kirkville,NY,13082,18,1,1,0,1,1
+Shon Wilkin,306 Second Street,Liverpool,NY,13088,15,1,1,1,1,1
+Jerald Burket,The White House,Fayetteville,NY,13066,14,1,0,1,0,0
+Christin Mebane,5955 Route 20 West,LaFayette,NY,13084,14,1,0,0,0,1
+Terra Cleary,2444 Route 11,La Fayette,NY,13084,14,0,0,1,0,1
+Sophie Patridge,6136 Route 20,Lafayette,NY,13084,15,1,1,0,0,0
+Celesta Hilbert,PO Box 644,Skaneateles,NY,13152,14,0,0,0,1,0
+Lashandra Valley,1002 State Fair Boulevard,Syracuse,NY,13209,14,1,0,1,1,0
+Stephany Sitton,529 Court Street,Syracuse,NY,13204,15,1,1,1,1,1
+Scarlet Bellanger,27 Fennell Street,Skaneateles,NY,13152,15,1,1,1,1,0
+Mariann Cheng,1419 Salt Springs Road,Syracuse,NY,13214,14,0,0,1,0,0
+Jacalyn Halle,PO Box 11866,Syracuse,NY,13218,17,1,0,1,0,0
+Micaela Bassham,212 East Manlius Street,East Syracuse,NY,13057,18,1,1,1,0,0
+Julio Lepak,"221 South Warren Street, 3rd Floor",Syracuse,NY,13202,15,1,1,0,1,0
+Elroy Bradham,472 South Salina Street,Syracuse,NY,13202,17,1,0,0,0,1
+Antonette Alas,10 Onondaga Street,Tully,NY,13159,18,1,0,1,1,0
+Ted Nunez,1045 James Street,Syracuse,NY,13203,14,1,1,0,1,1
+Fritz Averette,117 Highbridge Street,Fayetteville,NY,13066,16,0,1,0,1,0
+Elli Burnes,8100 Oswego Road,Liverpool,NY,13090,14,0,1,1,0,1
+April Carbonaro,100 New Street,Syracuse,NY,13202,16,0,0,0,1,0
+Renate Gauer,195 Blackberry Road,Liverpool,NY,13090,14,0,1,1,1,1
+Joel Canaday,1110 Oswego Street,Liverpool,NY,13088,16,1,1,1,0,0
+Ann Jacox,6101 Court Street Road,Syracuse,NY,13206,15,1,0,1,1,1
+Alline Garay,600 East Genesee Street,Syracuse,NY,13202,16,1,1,1,1,0
+Chiquita Collington,750 East Brighton Avenue,Syracuse,NY,13205,15,1,1,0,0,1
+Lecia Ogata,2707 Court Street,Lyncourt,NY,13208,16,1,1,1,1,1
+Annie Jamal,2909 Court Street,Syracuse,NY,13208,18,0,0,0,1,0
+Parker Merida,133 Cambridge Street,Syracuse,NY,13210,18,0,1,1,1,1
+Domenic Mclelland,664 Lamson Road,Baldwinsville,NY,13027,15,1,1,1,0,1
+Mable Candanoza,530 Oak Street,Syracuse,NY,13203,18,0,0,1,0,0
+Haydee Gushiken,1406 Park Street,Syracuse,NY,13208,16,1,0,1,0,1
+Bulah Ament,5005 Campuswood Drive,East Syracuse,NY,13057,16,0,1,0,1,0
+Ranae Cappelli,"731 James Street, Suite 315",Syracuse,NY,13203,15,1,0,0,1,0
+Fredda Woodmansee,4 Stickley Drive,Manlius,NY,13104,14,1,1,1,0,1
+Aleen Dugan,5300 Jamesville Road,Syracuse,NY,13214,17,1,1,1,0,1
+Apolonia Vandeusen,3707 Lee Mulroy Road,Marcellus,NY,13108,14,0,1,0,0,1
+Josette Bradish,2 Reed Parkway,Marcellus,NY,13108,15,1,0,1,0,1
+Chante Aquilino,1 East Main Street,Marcellus,NY,13108,15,0,1,1,1,1
+Luisa Lona,4242 Slate Hill Road,Marcellus,NY,13108,15,1,0,1,1,1
+Christeen Nguyen,2207 Burnet Avenue,Syracuse,NY,13206,14,1,0,1,1,0
+Shanita Corpuz,409 Standish Drive,Syracuse,NY,13224,15,1,0,0,1,1
+Twila Holeman,181 Blackberry Road,Liverpool,NY,13090,15,1,1,1,1,1
+Elyse Pett,50 Presidential Plaza,Syracuse,NY,13202,17,0,1,0,0,1
+Mathilda Russo,2849 South Salina Street,Syracuse,NY,13205,15,1,1,0,0,0
+Raelene Cutrer,425 Beechwood Avenue,Liverpool,NY,13088,18,1,1,1,1,0
+Nikita Favreau,173 East Molloy Road,Mattydale,NY,13211,14,1,1,0,1,1
+Clarisa Dibernardo,224 Harrison Street,Syracuse,NY,13202,18,1,0,0,1,0
+Karren Lettieri,601 East Genesee Street,Syracuse,NY,13202,15,1,0,1,0,0
+August Mcfarlin,76 Canton Street,Baldwinsville,NY,13027,17,0,1,0,0,0
+Waldo Zendejas,300 Burt Street,Syracuse,NY,13202,17,0,1,1,0,0
+Shon Wilkin,375 West Onondaga Street #15,Syracuse,NY,13202,18,1,0,0,0,0
+Jerald Burket,PO Box 757,Brewerton,NY,13029,16,1,1,1,1,0
+Christin Mebane,4101 East Genesee Street,Syracuse,NY,13214,17,0,0,0,0,0
+Terra Cleary,224 Harrison Street,Syracuse,NY,13202,14,1,1,1,1,0
+Sophie Patridge,1636 James Street,Syracuse,NY,13203,15,1,1,0,0,0
+Celesta Hilbert,2833 East Genesee Street,Syracuse,NY,13224,16,1,0,0,1,0
+Lashandra Valley,2507 James Street,Syracuse,NY,13206,15,0,1,0,0,0
+Stephany Sitton,528 Oak Street,Syracuse,NY,13203,18,1,1,0,0,1
+Scarlet Bellanger,500 South Franklin Street,Syracuse,NY,13202,18,0,1,1,1,0
+Mariann Cheng,238 North Main Street,Minoa,NY,13116,17,1,1,0,0,1
+Jacalyn Halle,155 Waldorf Parkway,Syracuse,NY,13224,15,0,1,0,0,1
+Micaela Bassham,North Syracuse Baptist Church,North Syracuse,NY,13212,18,1,0,1,1,0
+Julio Lepak,620 Erie Boulevard East,Syracuse,NY,13204,18,1,0,0,1,0
+Elroy Bradham,111 Roberts Avenue,Syracuse,NY,13207,15,1,1,0,0,1
+Antonette Alas,1031 Bellevue Avenue,Syracuse,NY,13207,14,0,1,0,1,1
+Ted Nunez,4149 Frost Street,Mottville,NY,13119,17,1,0,1,1,1
+Fritz Averette,1640 South Avenue,Syracuse,NY,13207,18,1,0,1,1,0
+Elli Burnes,7697 Morgan Road,Liverpool,NY,13090,15,1,1,1,0,1
+April Carbonaro,6743 Kinne Street,East Syracuse,NY,13057,18,1,1,0,0,0
+Renate Gauer,6315 Fly Road,East Syracuse,NY,13057,14,1,0,1,0,0
+Joel Canaday,917 Avery Avenue,Syracuse,NY,13204,17,1,0,1,1,0
+Ann Jacox,2507 James Street,Syracuse,NY,13206,17,0,0,0,1,1
+Alline Garay,300 Erie Boulevard West,Syracuse,NY,13202,14,0,0,1,0,0
+Chiquita Collington,731 James Street,Syracuse,NY,13203,17,1,0,0,1,1
+Lecia Ogata,Syracuse University Gebbie Speech Clinic Building,Syracuse,NY,13210,18,1,0,0,1,1
+Annie Jamal,4389 South Onondaga Road,Nedrow,NY,13120,18,1,1,0,1,0
+Parker Merida,6505 South Salina Street,Nedrow,NY,13120,15,0,1,1,1,1
+Domenic Mclelland,7247 State Fair Boulevard,Syracuse,NY,13209,16,1,1,1,1,1
+Mable Candanoza,3519 James Street,Syracuse,NY,13206,14,0,1,0,1,1
+Haydee Gushiken,1034 Montgomery Street,Syracuse,NY,13205,15,1,0,1,0,0
+Bulah Ament,400 Leavenworth Avenue,Syracuse,NY,13204,16,0,0,1,0,0
+Ranae Cappelli,516 South Avenue,Syracuse,NY,13207,14,0,1,1,1,1
+Fredda Woodmansee,731 James Street,Syracuse,NY,13203,14,1,0,1,1,0
+Aleen Dugan,600 South State Street,Syracuse,NY,13202,15,0,1,1,0,1
+Apolonia Vandeusen,333 East Washington Street,Syracuse,NY,13202,16,0,0,0,0,0
+Josette Bradish,615 Erie Boulevard West,Syracuse,NY,13204,15,0,1,1,1,1
+Chante Aquilino,217 South Salina Street,Syracuse,NY,13202,15,1,0,0,1,1
+Luisa Lona,Corning Tower,Syracuse,NY,12237,17,0,0,1,0,0
+Christeen Nguyen,333 East Washington Street,Syracuse,NY,13202,18,1,0,0,1,1
+Shanita Corpuz,333 East Washington Street,Syracuse,NY,13202,17,1,1,0,1,0
+Twila Holeman,333 East Washington Street,Syracuse,NY,13202,15,1,1,0,1,1
+Elyse Pett,333 East Washington Street,Syracuse,NY,13202,18,0,0,0,1,1
+Mathilda Russo,100 South Salina Street,Syracuse,NY,13202,14,0,1,1,0,1
+Raelene Cutrer,615 Erie Boulevard West,Syracuse,NY,13204,15,0,0,0,1,0
+Nikita Favreau,333 East Washington Street,Syracuse,NY,13202,14,1,0,1,1,0
+Clarisa Dibernardo,935 James Street,Syracuse,NY,13203,15,0,0,1,0,1
+Karren Lettieri,305 Vine Street,Liverpool,NY,13088,16,1,0,0,0,1
+August Mcfarlin,413 Church Street,North Syracuse,NY,13212,18,0,0,0,0,1
+Waldo Zendejas,603 North Main Street,Syracuse,NY,13212,16,0,1,0,1,1
+Shon Wilkin,501 James Street,Syracuse,NY,13203,14,0,0,0,1,0
+Jerald Burket,5355 West Taft Road,North Syracuse,NY,13212,16,1,1,0,0,1
+Christin Mebane,911 Church Street,Syracuse,NY,13212,14,1,0,0,1,1
+Terra Cleary,109 Chestnut Street,Syracuse,NY,13212,16,0,1,0,1,0
+Sophie Patridge,4425 Buckley Road,Liverpool,NY,13090,16,0,0,0,1,0
+Celesta Hilbert,1654 West Onondaga Street,Syracuse,NY,13204,18,0,1,1,1,0
+Lashandra Valley,4466 South Onondaga Road,Nedrow,NY,13120,17,0,1,1,0,1
+Stephany Sitton,4585 West Seneca Turnpike,Syracuse,NY,13215,14,1,0,0,0,1
+Scarlet Bellanger,"518 James Street, Suite 110",Syracuse,NY,13203,18,1,0,0,1,0
+Mariann Cheng,431 East Fayette Street,Syracuse,NY,13202,16,1,1,1,0,0
+Jacalyn Halle,421 Montgomery Street,Syracuse,NY,13202,15,0,1,0,0,1
+Micaela Bassham,401 Montgomery Street,Syracuse,NY,13202,16,1,1,0,1,1
+Julio Lepak,421 Montgomery Street,Syracuse,NY,13202,14,0,1,0,0,1
+Elroy Bradham,421 Montgomery Street,Syracuse,NY,13202,16,0,0,0,0,1
+Antonette Alas,505 South State Street,Syracuse,NY,13202,14,0,1,1,1,1
+Ted Nunez,421 Montgomery Street,Syracuse,NY,13202,18,0,0,1,0,1
+Fritz Averette,6660 East Seneca Turnpike,Jamesville,NY,13078,16,0,0,1,0,0
+Elli Burnes,3911 Central Avenue,Syracuse,NY,13215,16,0,1,1,0,1
+April Carbonaro,"421 Montgomery Street,",Syracuse,NY,13202,15,1,1,0,1,0
+Renate Gauer,530 Cedar Street,Syracuse,NY,13210,15,1,1,1,1,0
+Joel Canaday,421 Montgomery Street,Syracuse,NY,13202,17,0,0,0,0,1
+Ann Jacox,650 Hiawatha Boulevard West,Syracuse,NY,13204,16,1,1,0,1,0
+Alline Garay,505 South State Sreet,Syracuse,NY,13202,16,0,0,1,1,1
+Chiquita Collington,421 Montgomery Street,Syracuse,NY,13202,15,0,0,1,1,1
+Lecia Ogata,421 Montgomery Street,Syracuse,NY,13202,14,0,0,0,0,0
+Annie Jamal,329 North Salina Street,Syracuse,NY,13203,18,0,1,1,0,0
+Parker Merida,600 South State Street,Syracuse,NY,13202,17,1,1,0,0,1
+Domenic Mclelland,106 Lake Drive,Liverpool,NY,13088,17,1,1,1,1,0
+Mable Candanoza,Galleries of Syracuse,Syracuse,NY,13202,17,1,1,0,0,0
+Haydee Gushiken,100 Elwood Davis Road,North Syracuse,NY,13212,16,1,1,0,0,1
+Bulah Ament,407 South State Street,Syracuse,NY,13202,14,0,0,0,1,0
+Ranae Cappelli,6680 Onondaga Lake Parkway,Liverpool,NY,13088,18,1,1,1,1,0
+Fredda Woodmansee,421 Montgomery Street,Syracuse,NY,13202,16,0,0,1,1,0
+Aleen Dugan,200 Northern Concourse,Syracuse,NY,13212,14,1,0,0,1,0
+Apolonia Vandeusen,4831 Velasko Road,Syracuse,NY,13215,17,0,0,0,1,1
+Josette Bradish,3383 Route 11A,Nedrow,NY,13120,14,1,0,0,1,0
+Chante Aquilino,6820 Thompson Road,Syracuse,NY,13221,14,0,0,0,1,0
+Luisa Lona,407 Tulip Street,Liverpool,NY,13088,16,1,1,0,1,1
+Christeen Nguyen,7137 East Genesee Street,Fayetteville,NY,13066,17,0,1,0,1,0
+Shanita Corpuz,1933 Route 80,Tully,NY,13159,18,0,0,0,0,0
+Twila Holeman,203 Halcomb Street,Syracuse,NY,13209,16,0,1,1,1,1
+Elyse Pett,2100 East Genesee Street,Syracuse,NY,13210,18,0,1,1,1,0
+Mathilda Russo,421 Montgomery Street,North Syracuse,NY,13212,14,1,0,0,1,1
+Raelene Cutrer,412 South Avery Avenue,Syracuse,NY,13219,14,1,1,1,1,0
+Nikita Favreau,105 Rugby Road,Syracuse,NY,13206,16,0,0,0,0,0
+Clarisa Dibernardo,2100 East Genesee Street,Syracuse,NY,13210,18,1,1,1,1,1
+Karren Lettieri,530 Oak Street,Syracuse,NY,13203,15,1,1,0,1,1
+August Mcfarlin,9 Braniff Drive,Camillus,NY,13031,18,1,1,0,0,0
+Waldo Zendejas,315 South Crouse Avenue,Syracuse,NY,13210,14,1,1,1,0,1
+Shon Wilkin,2507 James Street,Syracuse,NY,13206,16,0,0,0,0,1
+Jerald Burket,528 Oak Street,Syracuse,NY,13203,14,1,1,1,0,0
+Christin Mebane,PO Box 6936,Syracuse,NY,13217,17,0,1,1,1,1
+Terra Cleary,217 South Salina Street,Syracuse,NY,13202,17,1,1,0,0,0
+Sophie Patridge,Fayetteville Library,Fayetteville,NY,13066,15,1,1,0,0,1
+Celesta Hilbert,7000 East Genesee Street,Fayetteville,NY,13066,17,0,0,0,0,0
+Lashandra Valley,222 Orlando Avenue,Syracuse,NY,13205,17,0,0,0,1,1
+Stephany Sitton,60 Oswego Street,Baldwinsville,NY,13027,15,0,1,0,1,1
+Scarlet Bellanger,767 West Genesee Road,Plainville,NY,13137,15,0,1,0,0,0
+Mariann Cheng,1120 East Genesee Street,Syracuse,NY,13210,16,1,1,1,1,1
+Jacalyn Halle,232 East Onondaga Street,Syracuse,NY,13202,14,0,1,0,1,0
+Micaela Bassham,7407 Academy Street,Pompey,NY,13138,14,1,1,1,1,0
+Julio Lepak,Cicero United Methodist Church,Cicero,NY,13039,17,0,1,0,0,1
+Elroy Bradham,906 Spencer Street,Syracuse,NY,13204,16,1,0,0,0,1
+Antonette Alas,317 East Jefferson Street,Syracuse,NY,13202,16,1,0,0,0,0
+Ted Nunez,6333 Route 298,East Syracuse,NY,13057,15,0,1,1,1,0
+Fritz Averette,6836 East Genesee Street,Fayetteville,NY,13066,18,1,1,1,1,1
+Elli Burnes,1816 Erie Boulevard East,Syracuse,NY,13210,15,1,1,0,1,1
+April Carbonaro,3300 James Street,Syracuse,NY,13206,17,1,1,0,1,1
+Renate Gauer,3100 South Salina Street,Syracuse,NY,13205,15,1,1,0,0,0
+Joel Canaday,1010 James Street,Syracuse,NY,13203,14,1,1,1,0,1
+Ann Jacox,4576 Waterhouse Road,Clay,NY,13041,14,0,1,1,1,0
+Alline Garay,2507 James Street,Syracuse,NY,13206,18,1,1,0,0,0
+Chiquita Collington,18 Bovington Lane,Fayetteville,NY,13066,15,1,0,1,1,0
+Lecia Ogata,7000 East Genesee Street,Fayetteville,NY,13066,15,0,0,0,0,0
+Annie Jamal,7565 Morgan Road,Liverpool,NY,13090,16,1,0,1,0,0
+Parker Merida,5424 West Genesee Street,Camillus,NY,13031,18,0,1,0,0,1
+Domenic Mclelland,155 Gifford Street,Syracuse,NY,13202,17,1,1,1,0,1
+Mable Candanoza,7913 East Ridge Point Drive,Fayetteville,NY,13066,14,0,1,1,1,1
+Haydee Gushiken,892 East Brighton Avenue,Syracuse,NY,13205,18,0,1,1,0,0
+Bulah Ament,750 East Adams Street,Syracuse,NY,13210,15,1,1,0,0,0
+Ranae Cappelli,750 James Street,Syracuse,NY,13203,15,1,0,0,1,1
+Fredda Woodmansee,600 East Genesee Street,Syracuse,NY,13202,14,1,0,1,1,0
+Aleen Dugan,SUNY Upstate Medical University Department of Psychiatry,Syracuse,NY,13210,15,1,0,0,0,1
+Apolonia Vandeusen,713 Harrison Street,Syracuse,NY,13210,16,0,1,1,0,1
+Josette Bradish,SUNY Upstate Medical - Psychology Division,Syracuse,NY,13210,16,1,1,1,1,0
+Chante Aquilino,1940 Valley Drive,Syracuse,NY,13207,16,1,0,0,0,1
+Luisa Lona,1100 East Genesee Street,Syracuse,NY,13210,14,1,1,1,0,0
+Christeen Nguyen,450 Kimber Road,Syracuse,NY,13224,18,1,0,1,1,0
+Shanita Corpuz,806 Cumberland Avenue,Syracuse,NY,13210,14,0,1,1,0,1
+Twila Holeman,8229 Brewerton Road,Cicero,NY,13039,15,0,1,1,0,0
+Elyse Pett,431 East Fayette Street,Syracuse,NY,13202,15,0,1,1,1,0
+Mathilda Russo,318 Herkimer Street,Syracuse,NY,13204,18,0,0,1,0,1
+Raelene Cutrer,103 Third Street,Solvay,NY,13209,14,1,1,0,0,1
+Nikita Favreau,1001 Tulip Street,Liverpool,NY,13088,14,0,0,0,1,0
+Clarisa Dibernardo,5600 West Genesee Street,Camillus,NY,13031,18,1,1,1,0,0
+Karren Lettieri,301 Prospect Avenue,Syracuse,NY,13203,15,1,0,0,0,0
+August Mcfarlin,432 Gifford Street,Syracuse,NY,13204,18,1,0,0,1,1
+Waldo Zendejas,203 Roxboro Road,Mattydale,NY,13211,15,1,0,0,1,1
+Shon Wilkin,49 Syracuse Street,Baldwinsville,NY,13027,15,1,0,1,1,1
+Jerald Burket,229 West Yates Street,East Syracuse,NY,13057,18,1,0,1,1,1
+Christin Mebane,228 Davis Street,Syracuse,NY,13204,15,0,1,1,1,1
+Terra Cleary,409 South Main Street,North Syracuse,NY,13212,15,1,1,0,1,0
+Sophie Patridge,411 South Main Street,North Syracuse,NY,13212,16,1,1,1,0,1
+Celesta Hilbert,677 South Salina Street,Syracuse,NY,13202,17,1,1,0,0,0
+Lashandra Valley,215 North State Street,Syracuse,NY,13203,16,0,0,1,0,1
+Stephany Sitton,1108 Spring Street,Syracuse,NY,13208,15,1,1,1,1,0
+Scarlet Bellanger,614 South Salina Street,Syracuse,NY,13202,16,1,1,1,1,1
+Mariann Cheng,3457 Hayes Road,Baldwinsville,NY,13027,15,0,1,0,1,1
+Jacalyn Halle,4719 Frank Gay Road,Marcellus,NY,13108,18,0,0,0,1,0
+Micaela Bassham,4200 Dave Tilden Road,Jamesville,NY,13078,18,0,0,1,1,1
+Julio Lepak,PO Box 2314,Syracuse,NY,13220,18,1,0,0,0,1
+Elroy Bradham,Confidential locations,Syracuse,NY,13207,15,1,0,0,0,1
+Antonette Alas,2610 South Salina Street #16,Syracuse,NY,13205,15,0,0,1,1,0
+Ted Nunez,509 West Fayette Street,Syracuse,NY,13204,18,0,1,0,1,1
+Fritz Averette,22 East Genesee Street,Baldwinsville,NY,13027,15,0,1,0,0,1
+Elli Burnes,77 Fennell Street,Skaneateles,NY,13152,14,1,1,1,0,0
+April Carbonaro,55 East Street,Skaneateles,NY,13152,14,1,0,0,0,0
+Renate Gauer,819 West Genesee Street Road,Skaneateles,NY,13152,17,0,0,1,1,1
+Joel Canaday,77 West Genesee Street,Skaneateles,NY,13152,18,0,1,1,1,1
+Ann Jacox,97 State Street,Skaneateles,NY,13152,16,1,1,1,1,1
+Alline Garay,1010 Woods Road,Solvay,NY,13209,16,0,0,0,0,1
+Chiquita Collington,299 Bury Drive,Syracuse,NY,13209,15,0,1,0,0,1
+Lecia Ogata,1925 Milton Avenue,Syracuse,NY,13209,15,1,1,1,1,1
+Annie Jamal,8817 Cicero Center Road,Cicero,NY,13039,17,1,0,0,1,0
+Parker Merida,3130 Cedarvale Road,Nedrow,NY,13120,15,0,0,0,1,0
+Domenic Mclelland,2383 Route 11 South,Lafayette,NY,13084,16,0,0,1,1,0
+Mable Candanoza,3143 Midland Avenue,Syracuse,NY,13205,16,1,1,1,0,1
+Haydee Gushiken,2200 Onondaga Creek Boulevard,Syracuse,NY,13207,18,1,0,0,1,1
+Bulah Ament,1327 West Colvin Street,Syracuse,NY,13205,14,1,0,0,1,1
+Ranae Cappelli,700 Oswego Street,Syracuse,NY,13204,15,0,0,0,0,1
+Fredda Woodmansee,6520 Basile Rowe,East Syracuse,NY,13057,16,0,1,0,0,0
+Aleen Dugan,6315 Fly Road,East Syracuse,NY,13057,17,1,0,1,1,1
+Apolonia Vandeusen,219 South Center Street,East Syracuse,NY,13057,17,0,1,0,0,0
+Josette Bradish,6101 East Molloy Road,East Syracuse,NY,13057,16,1,1,1,1,0
+Chante Aquilino,1 Forestry Drive,Syracuse,NY,13210,15,1,1,1,1,0
+Luisa Lona,100 New Street,Syracuse,NY,13202,16,0,0,0,0,0
+Christeen Nguyen,505 Winkworth Parkway,Syracuse,NY,13215,16,1,0,0,1,0
+Shanita Corpuz,6327 East Molloy Road,East Syracuse,NY,13057,14,0,0,0,1,0
+Twila Holeman,750 East Adams Street,Syracuse,NY,13210,17,1,0,1,1,1
+Elyse Pett,Confidential location,Syracuse,NY,13202,16,1,0,1,0,1
+Mathilda Russo,"Lyndon Office Park, Building A",Fayetteville,NY,13066,14,0,0,0,0,1
+Raelene Cutrer,7000 East Genesee Street,Fayetteville,NY,13066,15,0,1,0,1,0
+Nikita Favreau,421 Montgomery Street,Syracuse,NY,13202,15,1,0,1,0,1
+Clarisa Dibernardo,1001 Park Avenue,Syracuse,NY,13204,14,0,0,1,0,1
+Karren Lettieri,329 North Salina Street,Syracuse,NY,13203,17,1,0,1,1,0
+August Mcfarlin,505 South State Street,Syracuse,NY,13202,15,1,0,1,0,0
+Waldo Zendejas,412 Spencer Street,Syracuse,NY,13204,14,1,1,1,1,1
+Shon Wilkin,511 South State Street,Syracuse,NY,13202,15,1,1,0,1,1
+Jerald Burket,511 South State Street,Syracuse,NY,13202,15,0,1,0,0,0
+Christin Mebane,725 Harrison Street,Syracuse,NY,13210,14,1,1,0,0,0
+Terra Cleary,819 South Salina Street,Syracuse,NY,13202,14,0,0,1,0,1
+Sophie Patridge,2010 West Genesee Street,Syracuse,NY,13219,17,1,1,1,0,1
+Celesta Hilbert,308 Otisco Street,Syracuse,NY,13204,14,0,0,0,0,1
+Lashandra Valley,5655 Thompson Road,Dewitt,NY,13214,15,1,0,0,0,1
+Stephany Sitton,126 South Terry Road,Syracuse,NY,13219,14,1,0,0,1,1
+Scarlet Bellanger,516 Burt Street,Syracuse,NY,13202,14,1,1,0,1,1
+Mariann Cheng,4101 East Genesee Street,Syracuse,NY,13214,16,0,1,0,0,1
+Jacalyn Halle,401- 425 South Avenue,Syracuse,NY,13204,16,1,0,1,0,0
+Micaela Bassham,716 Hawley Avenue,Syracuse,NY,13203,16,0,0,0,1,1
+Julio Lepak,2013 East Genesee Street,Syracuse,NY,13210,16,0,1,1,0,1
+Elroy Bradham,319 East Water Street,Syracuse,NY,13202,18,1,1,0,0,1
+Antonette Alas,124 Furman Street,Syracuse,NY,13205,17,0,0,1,0,0
+Ted Nunez,1941 South Salina Street,Syracuse,NY,13205,14,1,0,0,0,1
+Fritz Averette,900 South Crouse Avenue,Syracuse,NY,13244,18,1,1,0,0,0
+Elli Burnes,111 Waverly Avenue,Syracuse,NY,13244,14,0,1,0,0,1
+April Carbonaro,Syracuse University School of Education,Syracuse,NY,13244,14,0,1,1,1,0
+Renate Gauer,950 Irving Avenue,Syracuse,NY,13244,17,1,0,1,0,0
+Joel Canaday,601 East Genesee Street,Syracuse,NY,13202,18,0,1,1,1,1
+Ann Jacox,804 University Avenue,Syracuse,NY,13244,15,0,0,1,1,1
+Alline Garay,800 Irving Avenue,Syracuse,NY,13210,14,0,1,0,0,0
+Chiquita Collington,109 Pine Street,Syracuse,NY,13210,18,1,0,0,0,1
+Lecia Ogata,6858 East Genesee Street,Fayetteville,NY,13066,18,1,0,1,0,1
+Annie Jamal,4300 Onondaga Boulevard,Syracuse,NY,13219,16,1,0,1,1,1
+Parker Merida,910 Madison Street,Syracuse,NY,13210,14,0,0,1,0,0
+Domenic Mclelland,312 Elm Street,Fayetteville,NY,13066,17,1,1,1,0,1
+Mable Candanoza,813 Fay Road,Syracuse,NY,13219,14,0,1,1,1,0
+Haydee Gushiken,Immanuel Lutheran Church,Clay,NY,13041,14,0,0,0,0,1
+Bulah Ament,1654 West Onondaga Street,Syracuse,NY,13204,15,1,0,0,0,1
+Ranae Cappelli,5205  Jamesville Road,Syracuse,NY,13214,15,0,1,1,0,1
+Fredda Woodmansee,1443 East Genesee Street,Syracuse,NY,13210,16,1,0,1,0,0
+Aleen Dugan,800 South State Street,Syracuse,NY,13202,17,1,1,0,0,1
+Apolonia Vandeusen,600 East Genesee Street,Syracuse,NY,13202,18,1,1,0,1,0
+Josette Bradish,2100 East Genesee Street,Syracuse,NY,13210,18,0,0,0,1,0
+Chante Aquilino,638 Burnet Avenue,Syracuse,NY,13203,15,1,1,0,1,1
+Luisa Lona,1654 West Onondaga Street,Syracuse,NY,13204,15,1,1,0,0,1
+Christeen Nguyen,4600 West Genesee Street,Syracuse,NY,13219,14,1,1,0,0,1
+Shanita Corpuz,8236 Brewerton Road,Cicero,NY,13039,15,0,1,0,0,0
+Twila Holeman,4401 Route 31,Clay,NY,13041,15,1,0,0,1,0
+Elyse Pett,5400 Butternut Drive,East Syracuse,NY,13057,16,1,1,1,0,1
+Mathilda Russo,5 Route 31 Jordan,Jordan,NY,13080,14,0,1,1,1,1
+Raelene Cutrer,7786 Main Street,Fabius,NY,13063,18,0,0,1,1,0
+Nikita Favreau,1000 Woods Road,Geddes,NY,13209,18,0,1,0,1,1
+Clarisa Dibernardo,2577 US Route 11,LaFayette,NY,13084,17,1,1,0,0,1
+Karren Lettieri,8220 Loop Road,Baldwinsville,NY,13027,16,0,0,0,0,1
+August Mcfarlin,301 Brooklea Drive,Fayetteville,NY,13066,14,1,0,1,0,1
+Waldo Zendejas,24 East Main Street,Marcellus,NY,13108,18,0,0,0,1,0
+Shon Wilkin,5020 Ball Road,Syracuse,NY,13215,16,0,1,0,0,0
+Jerald Burket,1924 Barker Street,Tully,NY,13159,15,1,1,0,1,0
+Christin Mebane,8354 Route 20,Manlius,NY,13104,16,0,0,1,0,1
+Terra Cleary,201 School Road,Liverpool,NY,13088,17,1,0,0,1,1
+Sophie Patridge,24 Jordan Street,Skaneateles,NY,13152,15,0,0,0,1,0
+Celesta Hilbert,1984 State Route 174,Skaneateles,NY,13152,16,0,1,1,0,1
+Lashandra Valley,5833 Meeting House Road,Tully,NY,13159,16,0,0,1,0,1
+Stephany Sitton,7575 Van Buren Road,Van Buren,NY,13027,15,1,1,0,0,0
+Scarlet Bellanger,2100 East Genesee Street,Syracuse,NY,13210,16,0,1,0,0,1
+Mariann Cheng,112 Dewitt Street,Syracuse,NY,13203,15,0,0,0,0,0
+Jacalyn Halle,740 Teall Avenue,Syracuse,NY,13206,15,1,1,0,1,1
+Micaela Bassham,Solvay Public Library,Syracuse,NY,13209,14,1,0,0,1,1
+Julio Lepak,4398 Route 31,Clay,NY,13041,15,1,1,1,1,1
+Elroy Bradham,20 State Street,Tully,NY,13159,15,1,1,0,0,1
+Antonette Alas,1 Railroad Street,Tully,NY,13159,18,0,1,1,1,0
+Ted Nunez,5821 Route 80,Tully,NY,13159,14,0,1,1,0,0
+Fritz Averette,North Syracuse Community Center,North Syracuse,NY,13212,17,1,0,0,0,1
+Elli Burnes,215 Blackberry Road,Liverpool,NY,13090,16,1,0,0,0,0
+April Carbonaro,342 South Salina Street,Syracuse,NY,13202,18,1,0,0,1,1
+Renate Gauer,100 South Clinton Street,Syracuse,NY,13261,14,0,0,0,1,1
+Joel Canaday,344 West Genesee Street,Syracuse,NY,13202,14,1,1,1,1,0
+Ann Jacox,440 South Warren Street,Syracuse,NY,13202,16,1,0,0,0,0
+Alline Garay,One Park Place,Syracuse,NY,13202,17,1,1,0,0,1
+Chiquita Collington,100 South Clinton Street,Syracuse,NY,13261,17,1,1,0,0,0
+Lecia Ogata,224 Harrison Street,Syracuse,NY,13202,18,1,0,0,0,0
+Annie Jamal,100 South Clinton Street,Syracuse,NY,13261,18,1,0,0,1,1
+Parker Merida,518 James Street,Syracuse,NY,13203,15,0,0,0,0,1
+Domenic Mclelland,512 Westcott Street,Syracuse,NY,13210,15,0,1,0,1,0
+Mable Candanoza,700 University Avenue,Syracuse,NY,13244,16,1,1,1,0,0
+Haydee Gushiken,1085 East Genesee Street,Syracuse,NY,13210,14,0,0,1,0,0
+Bulah Ament,Baldwinsville Public Library,Baldwinsville,NY,13027,15,0,1,1,1,1
+Ranae Cappelli,407 Tulip Street,Liverpool,NY,13088,17,0,1,1,0,1
+Fredda Woodmansee,750 East Adams Street,Syracuse,NY,13210,16,0,1,1,1,0
+Aleen Dugan,2929 Midland Avenue,Syracuse,NY,13205,14,1,0,1,0,1
+Apolonia Vandeusen,5075 West Seneca Turnpike,Syracuse,NY,13215,15,0,0,1,1,1
+Josette Bradish,6181 Thompson Road,Syracuse,NY,13206,16,0,1,1,0,1
+Chante Aquilino,26 Corporate Circle,East Syracuse,NY,13057,18,0,0,1,1,0
+Luisa Lona,16 West Genesee Street,Baldwinsville,NY,13027,17,1,0,1,0,1
+Christeen Nguyen,204 North Center Street,East Syracuse,NY,13057,14,0,1,0,1,1
+Shanita Corpuz,210 West Main Street,Elbridge,NY,13060,18,0,0,1,0,0
+Twila Holeman,PO Box 102,Fabius,NY,13063,15,0,1,0,0,1
+Elyse Pett,425 East Genesee Street,Fayetteville,NY,13066,14,1,1,0,0,1
+Mathilda Russo,7 Mechanic Street ,Jordan,NY,13080,16,0,0,0,1,1
+Raelene Cutrer,310 Sycamore Street,Liverpool,NY,13088,16,1,0,0,1,0
+Nikita Favreau,One Arkie Albanese Avenue,Manlius,NY,13104,16,0,1,1,1,1
+Clarisa Dibernardo,6 Slocombe Avenue,Marcellus,NY,13108,14,1,0,0,1,1
+Karren Lettieri,240 North Main Street,Minoa,NY,13116,18,1,1,1,0,0
+August Mcfarlin,600 South Bay Road,North Syracuse,NY,13212,17,0,1,1,0,0
+Waldo Zendejas,26 Fennell Street,Skaneateles,NY,13152,16,1,0,1,0,1
+Shon Wilkin,1100 Woods Road,Solvay,NY,13209,16,1,1,0,1,0
+Jerald Burket,5833 Meetinghouse Road,Tully,NY,13159,14,0,0,1,1,0
+Christin Mebane,312 Lakeside Road,Syracuse,NY,13209,14,0,0,1,1,0
+Terra Cleary,1201 East Fayette Street,Syracuse,NY,13210,18,1,0,0,1,1
+Sophie Patridge,1050 West Genesee Street,Syracuse,NY,13204,17,0,0,1,1,1
+Celesta Hilbert,"221 South Warren Street, Suite 320",Syracuse,NY,13202,16,1,1,0,1,0
+Lashandra Valley,6444 Newport Road,Warners,NY,13164,16,1,1,1,0,1
+Stephany Sitton,404 Oak Street,Syracuse,NY,13203,18,1,0,0,0,1
+Scarlet Bellanger,300 Sanderson Drive,Camillus,NY,13031,14,1,0,1,1,0
+Mariann Cheng,826 Euclid Avenue,Syracuse,NY,13210,14,1,1,1,0,1
+Jacalyn Halle,202 Bennett Road,Camillus,NY,13031,16,1,1,0,1,0
+Micaela Bassham,400 Walberta Road,Syracuse,NY,13219,16,0,0,0,1,1
+Julio Lepak,1015 State Fair Boulevard,Syracuse,NY,13209,16,1,0,0,0,0
+Elroy Bradham,191 Intrepid Lane,Syracuse,NY,13205,14,1,0,0,1,1
+Antonette Alas,PO Box 5543,Syracuse,NY,13220,14,0,0,1,0,1
+Ted Nunez,13 Fennell Street,Skaneateles,NY,13152,15,0,1,0,1,0
+Fritz Averette,1414 Grant Boulevard,Syracuse,NY,13208,18,0,0,0,1,1
+Elli Burnes,901 James Street,Syracuse,NY,13203,15,1,0,0,1,1
+April Carbonaro,340 Montgomery Street,Syracuse,NY,13202,16,1,0,1,0,1
+Renate Gauer,401 Douglas Street,Syracuse,NY,13203,17,0,1,0,1,1
