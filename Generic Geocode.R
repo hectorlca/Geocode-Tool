@@ -20,30 +20,14 @@ dat <- na.omit(dat) # leaves out rows with missing info.
 
 #### Product 1: The original file with GIS data appended to it. ####
 
-### Download Shapefiles for Onondaga County ###
 #Note: If you are looking at mapping adresses in a county other than Onondaga you must modify the 
-#link addresses below to fit the FIPS code convention: State FIP code: 36, Onondaga FIP code: 067.
-
+#link addresses below to fit the FIPS code convention: State FIP code for NY: 36, Onondaga County FIP code: 067.
 
 
 #####  Product A: Substituted FTP download for tigris tracts() ####
 
-#download.file("ftp://ftp2.census.gov/geo/tiger/TIGER2010/TRACT/2010/tl_2010_36067_tract10.zip", "onondaga census tracts.zip" )
-#unzip( "onondaga census tracts.zip" )
-#file.remove( "onondaga census tracts.zip" )
-#syr <- readShapePoly( fn="tl_2010_36067_tract10", proj4string=CRS("+proj=longlat +datum=WGS84") )
-
-# Remove files to keep folder clean.
-#file.remove("tl_2010_36067_tract10.dbf")
-#file.remove("tl_2010_36067_tract10.prj")
-#file.remove("tl_2010_36067_tract10.shp")
-#file.remove("tl_2010_36067_tract10.shp.xml")
-#file.remove("tl_2010_36067_tract10.shx")
-
-#START TIGRIS
+#START TIGRIS Work
 syr <- tracts(state = 36, county = 67, cb = TRUE) # from tigris
-
-
 
 
 #### Geocode addresses using Google Maps
@@ -69,9 +53,7 @@ mydata.sp <-  SpatialPoints(to.sp,
                                               +ellps=GRS80 
                                               +towgs84=0,0,0") )
 
-# The above lines work fine. Changing the projection to match the tigris import is crucial.
-
-# Find out which tract each points fall into and append the census tract to original file.
+# Find out which tract each point fall into and append the census tract number to original file.
 mydata.tracts <- over(mydata.sp, syr, returnList= FALSE ) # This gets the Census Tract for the address.
 mydata.withcoords$tract <- mydata.tracts$NAME
 
@@ -87,18 +69,51 @@ syr.map <-
   setView(lng=-76.13, lat=43.03, zoom=13) %>%
   setMaxBounds(lng1=-75, lat1=41, lng2=-77,  lat2=45) %>%
   addCircleMarkers(lng = mygisdata$lon, lat = mygisdata$lat, clusterOptions = markerClusterOptions(),
-                   popup = paste(sep = "<br/>", nfp.coords$Name, nfp.coords$Address, 
-                                 (paste("Census Tract: ",nfp.coords$CensusTract))), 
+                   popup = paste(sep = "<br/>", mygisdata$name, mygisdata$address, 
+                                 (paste("Census Tract: ", mygisdata$tract))), 
                    radius=10, stroke = TRUE, color = "steelblue", weight = 8, opacity = 0.7)
 
 
 
-
+#### Product C: A heatmap of which Census Tracts your clients are located in.
 
 # Aggregate how many entries per Census Tract to draw the heatmap.
 mydata.list <- over(syr, mydata.sp, returnList = TRUE )
 count <- sapply( mydata.list, length )
 myclient.tracts <- data.frame( GEOID10=syr$NAME, count=count ) # THIS IS FOR THE HEATMAP
+
+# Append the client count to the Shapefile.
+df_merged <- geo_join(syr, myclient.tracts, "NAME", "GEOID10") 
+df_merged [is.na(df_merged$count)] <- 0
+
+#Draw the map:
+
+
+popup <- paste0("Census Tract: ", df_merged$NAME, "<br>", 
+                "Number of Clients here: ", df_merged$count, ".", "<br>",
+                "THE INFO I WANT TO SEE")
+
+pal <- colorNumeric(
+  palette = "Greens",
+  domain = df_merged$count
+)
+
+leaflet() %>%
+  addProviderTiles("Esri.WorldStreetMap") %>%
+  setView(lng=-76.13, lat=43.03, zoom = 12) %>%
+  addPolygons(data = df_merged, 
+              fillColor = ~pal(count), 
+              color = "gray80", # you need to use hex colors
+              fillOpacity = 0.7, 
+              weight = 1.5, 
+              smoothFactor = 0.2,
+              popup = popup) %>%
+  
+  addLegend(pal = pal, 
+            values = df_merged$count, 
+            position = "bottomright", 
+            title = "# of Clients",
+            labFormat = labelFormat(suffix = "")) 
 
 
 
