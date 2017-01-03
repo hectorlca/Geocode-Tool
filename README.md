@@ -1,7 +1,7 @@
 ---
 title: "Geocoding for Nonprofits"
-author: "Documentation Prepared by Hector Corrales, Program Officer"
-date: "Central New York Community Foundation"
+author: "Hector Corrales, Program Officer, CNYCF"
+date: "January, 2017"
 output: html_document
 ---
 
@@ -73,7 +73,7 @@ Now that we have R installed, we have to load the script itself so that it can r
 
 **Step 1**
 
-Create a folder in your PC. Name it whatever you like and place it somewhere where you can find it easily for future use. Take note of the file path where you are creating the folder, since we will need it later. As you can see in the image below, I've created a new folder called **"My Geocoding Tool"**. The filepath is in the top bar. 
+Create a new folder in your PC. Name it whatever you like and place it somewhere where you can find it easily for future use. Take note of the file path where you are creating the folder, since we will need it later. As you can see in the image below, I've created a new folder called **"My Geocoding Tool"**. The filepath is in the top bar. 
 
 ***
 <center>![](http://imgur.com/fG0hHPE.jpg)</center>
@@ -82,7 +82,7 @@ Create a folder in your PC. Name it whatever you like and place it somewhere whe
 **Step 2**  
 
 Once the folder has been created, [download the script from this link and open it.](https://github.com/hectorlca/Geocode-Tool/archive/master.zip)  
-Now, double click on the downloaded ZIP file (if it did not open automatically) and extract all the files to the folder that you created in Step 1.
+Now, double click on the downloaded ZIP file (if it did not open automatically) and extract all the files to the new folder that you created in Step 1.
 
 Your folder should now look like this:
 
@@ -90,7 +90,24 @@ Your folder should now look like this:
 <center>![](http://imgur.com/AnxFNL4.jpg)</center>
 ***
 
+**Step 3**
+
+Now we want to go back to RStudio. In the menu bar across the top, click on "File", then on "New Project". You will get a dialog box with three options on how you want to create the new project. Choose the option that says "Existing Directory" and then hit next.
+
+***
+
+
+
+
+
+
+
+
+
+
+
 ### 3) Getting your Data in the right format:  
+
    
 Since its easier to go through this process using an example, we will be using a fake dataset listing randomly generated names along with randomly generated information about each client.
 
