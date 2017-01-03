@@ -99,7 +99,7 @@ The file should be structured in the following way:
 
 ***
 
-![](http://i.imgur.com/x767Su7.jpg)
+<center>![](http://i.imgur.com/x767Su7.jpg)</center>
 
 ***
 
