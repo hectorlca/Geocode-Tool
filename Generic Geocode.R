@@ -95,7 +95,7 @@ popup <- paste0("Census Tract: ", df_merged$NAME, "<br>",
                 "THE INFO I WANT TO SEE")
 
 pal <- colorNumeric(
-  palette = "Greens",
+  palette = "Blues",
   domain = df_merged$count
 )
 
