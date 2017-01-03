@@ -32,35 +32,9 @@ Although this process may seem daunting for a non-programmer, be patient and fol
 
 ***
 
-### 1) Getting your Data in the right format:  
-   
-Since its easier to go through this process using an example, we will be using a fake dataset listing randomly generated names along with randomly generated information about each client.
-
- 
-The file should be structured in the following way:  
-
-***
-
-![](http://i.imgur.com/x767Su7.jpg)
-
-***
 
 
-You **must** have your data saved as a CSV file. Otherwise, R won't be able to read your data.
-CSV stands for 'Comma Separated Values'. In order to save a datasheet as a CSV file when you are in Excel, click 'Save as', name your file, and in the 'File type' dropdown box, select *"CSV (Comma Delimited)".*
-
-##### A note on the Google Maps API  
-
-In this tool, we will use R and RStudio to interface with Google Maps in order to convert addresses into a set of coordinates that will allow us to plot them on a map. There are two things to know regarding the Google Maps API:
- 
-1) Ocasionally Google Maps will not recognize an address. Two common causes are: 
-    a) The address is a PO Box or b) the Apartment/Suite number is written at the beginning of the address or appears misplaced within         the address.
-    
-2) The Google Maps API only allows **2,500 requests** per day. If your data contains more than 2,500 addresses, you should look into       paying for more daily capacity. This case is unlikely with the intended audience for this tool.
-
-***
-
-### 2) Getting started with R and RStudio
+### 1) Getting started with R and RStudio
 
 First, you must download and install R, a free software environment for statistical computing and graphics. You may download it here: https://cran.rstudio.com/bin/windows/base/ . Use the predetermined settings to install R and click 'Next' until the installation is complete.
  
@@ -93,7 +67,7 @@ If you are confused by this step, it's ok. You just need to know that installing
 
 ***
 
-### 3) Getting the script onto your computer.
+### 2) Getting the script onto your computer.
 
 Now that we have R installed, we have to load the script itself so that it can run locally in your computer and pull the data from *your* file. The following steps will copy the script onto your computer and get it ready for your use.
 
@@ -108,8 +82,41 @@ Create a folder in your PC. Name it whatever you like and place it somewhere whe
 **Step 2**  
 
 Once the folder has been created, [download the script from this link and open it.](https://github.com/hectorlca/Geocode-Tool/archive/master.zip)  
-Now, double click on the downloaded ZIP file if it did not open automatically and extract all the files to the folder that you created in Step 1.
+Now, double click on the downloaded ZIP file (if it did not open automatically) and extract all the files to the folder that you created in Step 1.
 
+Your folder should now look like this:
+
+***
+<center>![](http://imgur.com/AnxFNL4.jpg)</center>
+***
+
+### 3) Getting your Data in the right format:  
+   
+Since its easier to go through this process using an example, we will be using a fake dataset listing randomly generated names along with randomly generated information about each client.
+
+ 
+The file should be structured in the following way:  
+
+***
+
+![](http://i.imgur.com/x767Su7.jpg)
+
+***
+
+
+You **must** have your data saved as a CSV file. Otherwise, R won't be able to read your data.
+CSV stands for 'Comma Separated Values'. In order to save a datasheet as a CSV file when you are in Excel, click 'Save as', name your file, and in the 'File type' dropdown box, select *"CSV (Comma Delimited)".*
+
+##### A note on the Google Maps API  
+
+In this tool, we will use R and RStudio to interface with Google Maps in order to convert addresses into a set of coordinates that will allow us to plot them on a map. There are two things to know regarding the Google Maps API:
+ 
+1) Ocasionally Google Maps will not recognize an address. Two common causes are: 
+    a) The address is a PO Box or b) the Apartment/Suite number is written at the beginning of the address or appears misplaced within         the address.
+    
+2) The Google Maps API only allows **2,500 requests** per day. If your data contains more than 2,500 addresses, you should look into       paying for more daily capacity. This case is unlikely with the intended audience for this tool.
+
+***
  
 Okay, now we're ready to get our data in the right place and run the script. 
 
