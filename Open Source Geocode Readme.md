@@ -62,6 +62,8 @@ In this tool, we will use R and RStudio to interface with Google Maps in order t
 
 ### 2) Getting started with R and RStudio
 
+
+
 First, you must download and install R, a free software environment for statistical computing and graphics. You may download it here: https://cran.rstudio.com/bin/windows/base/ . Use the predetermined settings to install R and click 'Next' until the installation is complete.
  
 Once you've downloaded and installed R, it's time to install RStudio. You can download it here: https://www.rstudio.com/products/rstudio/download/ . In this page you must select a version to download --  see which description fits your computer best and download that version. Once RStudio has finished installing, open the program.
@@ -70,7 +72,9 @@ Once you've downloaded and installed R, it's time to install RStudio. You can do
 ##### We're almost done installing. Once you have opened RStudio, locate the pane that is in the lower right corner of the screen.
 
 *** 
+  
 <center>![](http://i.imgur.com/xqGpmWm.jpg)</center>
+ 
 ***
   
 Once you've located the pane, select the "Packages" tab. Once the tab is selected, find and click the "Install" button.
@@ -110,10 +114,25 @@ Create a folder in your PC. Name it whatever you like and place it somewhere whe
 Once the folder has been created, [download the script from this link and open it.](https://github.com/hectorlca/Geocode-Tool/archive/master.zip)  
 Now, double click on the downloaded ZIP file if it did not open automatically and extract all the files to the folder that you created in Step 1.
 
- 
-Okay, now we're ready to get our data in the right place and run the script. 
+
 
 
 
 Due to the nature of this tool, the user cannot escape at least some interaction with the code that makes it run. The most obvious way 
-This section digs deeper into the first
+This section digs deeper into the first 
+Okay, now we're ready to get our data in the right place and run the script. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

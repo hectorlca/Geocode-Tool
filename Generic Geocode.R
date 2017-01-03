@@ -68,7 +68,8 @@ syr.map <-
   addProviderTiles("CartoDB.Positron", tileOptions(minZoom=10, maxZoom=18))  %>%
   setView(lng=-76.13, lat=43.03, zoom=13) %>%
   setMaxBounds(lng1=-75, lat1=41, lng2=-77,  lat2=45) %>%
-  addCircleMarkers(lng = mygisdata$lon, lat = mygisdata$lat, clusterOptions = markerClusterOptions(),
+  addCircleMarkers(lng = mygisdata$lon, lat = mygisdata$lat, 
+                   clusterOptions = markerClusterOptions(),
                    popup = paste(sep = "<br/>", mygisdata$name, mygisdata$address, 
                                  (paste("Census Tract: ", mygisdata$tract))), 
                    radius=10, stroke = TRUE, color = "steelblue", weight = 8, opacity = 0.7)
