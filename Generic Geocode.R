@@ -84,7 +84,8 @@ myclient.tracts <- data.frame( GEOID10=syr$NAME, count=count ) # THIS IS FOR THE
 
 # Append the client count to the Shapefile.
 df_merged <- geo_join(syr, myclient.tracts, "NAME", "GEOID10") 
-df_merged [is.na(df_merged$count)] <- 0
+
+#df_merged [is.na(df_merged$count)] <- 0
 
 #Draw the map:
 

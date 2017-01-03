@@ -16,7 +16,7 @@ The tools will work with any dataset that contains addresses as long as they are
 Although this process may seem daunting for a non-programmer, be patient and follow the steps carefully and you should reach the tools mentioned above.
 
 
-## Getting your Data Ready:
+### Getting your Data Ready:
  
 Since its easier to go through this process using an example, we will be using a fake dataset listing randomly generated names along with randomly generated information about each client.
 
@@ -31,7 +31,7 @@ You **must** have your data saved as a CSV file. Otherwise, R won't be able to r
 CSV stands for 'Comma Separated Values'. In order to save a datasheet as a CSV file when you are in Excel, click 'Save as', name your file, and in the 'File type' dropdown box, select 'CSV (Comma Delimited).
 
 
-### A note on the Google Maps API  
+#### A note on the Google Maps API  
  In this tool, we will use R and RStudio to interface with Google Maps in order to convert addresses into a set of coordinates that will allow us to plot them on a map. There are two things to know regarding the Google Maps API:
  
 1) Ocasionally Google Maps will not recognize an address. Two common causes are: 
