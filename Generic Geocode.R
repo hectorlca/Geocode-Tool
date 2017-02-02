@@ -18,16 +18,13 @@ library(reshape2)
 dat <- read.csv("data/mydata.csv") # Read in your file with Addresses.
 dat <- na.omit(dat) # leaves out rows with missing info.
 
-
-
-
 #####  Product A: Substituted FTP download for tigris tracts() ####
 
 #START TIGRIS Work
 syr <- tracts(state = 36, county = 67, cb = TRUE) # from tigris
 
 
-#### Geocode addresses using Google Maps
+# Geocode addresses using Google Maps
 # The following lines will take some time to run, depending on how many addresses you wish to geocode.
 
 #HASHTAGGED OUT WHILE IN DEVELOPMENT AND NEED TO EXPLAIN 
@@ -66,20 +63,19 @@ write.csv(mydata.withcoords, "data/mygeocodeddata.csv", row.names = FALSE)
 mygisdata <- read.csv("data/mygeocodeddata.csv")
 
 
-
-
-
 #### Product B: A map that plots your clients ####
+
 
 syr.map <- 
   leaflet(data = data.frame(lon = -76.148223, lat = 43.024003)) %>% 
-  addProviderTiles("CartoDB.Positron", tileOptions(minZoom=10, maxZoom=18))  %>%
+  addProviderTiles("Esri.WorldStreetMap", tileOptions(minZoom=10, maxZoom=18))  %>%
   setView(lng=-76.13, lat=43.03, zoom=13) %>%
   setMaxBounds(lng1=-75, lat1=41, lng2=-77,  lat2=45) %>%
-  addCircleMarkers(lng = mygisdata$lon, lat = mygisdata$lat, 
+  addCircleMarkers( icon = myIcon,
+    lng = mygisdata$lon, lat = mygisdata$lat, 
                    clusterOptions = markerClusterOptions(),
                    popup = paste(sep = "<br/>", mygisdata$name, mygisdata$address, 
-                                 (paste("Census Tract: ", mygisdata$tract))), 
+                                 (paste("Census Tract: ", mygisdata$tract))),
                    radius=10, stroke = TRUE, color = "steelblue", weight = 8, opacity = 0.7)
 
 
