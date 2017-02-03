@@ -1,4 +1,19 @@
 #### Setup Libraries and Data ####
+install.packages("plyr")
+install.packages("maptools")
+install.packages("dplyr")
+install.packages("sp")
+install.packages("rjson")
+install.packages("ggmap")
+install.packages("tigris")
+install.packages("RCurl")
+install.packages("rgdal")
+install.packages("httr")
+install.packages("leaflet")
+install.packages("reshape2")
+install.packages("acs")
+
+
 
 library(plyr)
 library(maptools)
@@ -12,6 +27,7 @@ library(rgdal)
 library(httr)
 library(leaflet)
 library(reshape2)
+library(acs)
 
 
 
@@ -71,7 +87,7 @@ syr.map <-
   addProviderTiles("Esri.WorldStreetMap", tileOptions(minZoom=10, maxZoom=18))  %>%
   setView(lng=-76.13, lat=43.03, zoom=13) %>%
   setMaxBounds(lng1=-75, lat1=41, lng2=-77,  lat2=45) %>%
-  addCircleMarkers( icon = myIcon,
+  addCircleMarkers( 
     lng = mygisdata$lon, lat = mygisdata$lat, 
                    clusterOptions = markerClusterOptions(),
                    popup = paste(sep = "<br/>", mygisdata$name, mygisdata$address, 
@@ -101,8 +117,15 @@ myclient.tracts <- data.frame( GEOID10=syr$NAME, count=count ) # THIS IS FOR THE
 # Append the client count to the Shapefile.
 df_merged <- geo_join(syr, myclient.tracts, "NAME", "GEOID10") 
 
+#### SHow product C: A file with the census tract and the (count or rate) of what you want to measure.
 
-#### Show Product C: A heatmap. ####
+mytract.data <- as.data.frame(df_merged)
+mytract.data <- select(mytract.data, NAME, count)
+
+mytract.data # this is the dataframe to show for product C.
+
+
+#### Show Product D: A heatmap. ####
 popup <- paste0("Census Tract: ", df_merged$NAME, "<br>", 
                 "Number of Clients here: ", df_merged$count, ".", "<br>",
                 "THE INFO I WANT TO SEE")
