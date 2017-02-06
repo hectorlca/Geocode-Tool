@@ -158,7 +158,76 @@ dot.map
 
 ```
 
-11) Make a map with multiple layers
+
+
+11) Product C: A table with how many clients in each Census Tract
+
+```{r}
+
+# Aggregate how many entries per Census Tract to draw the heatmap.
+
+mydata.list <- over(syr, mydata.sp, returnList = TRUE )
+count <- sapply( mydata.list, length )
+myclient.tracts <- data.frame( GEOID10=syr$NAME, count=count ) # THIS IS FOR THE HEATMAP
+
+# Append the client count to the Shapefile.
+df_merged <- geo_join(syr, myclient.tracts, "NAME", "GEOID10") 
+
+#### SHow product C: A file with the census tract and the (count or rate) of what you want to measure.
+
+mytract.data <- as.data.frame(df_merged)
+mytract.data <- select(mytract.data, NAME, count)
+
+mytract.data # this is the dataframe to show for product C.
+
+```
+
+
+12) Product D: A heatmap of where your clients are located:
+
+```{r}
+#### Show Product D: A heatmap. ####
+popup <- paste0("Census Tract: ", df_merged$NAME, "<br>", 
+                "Number of Clients here: ", df_merged$count, ".", "<br>",
+                "THE INFO I WANT TO SEE")
+
+pal <- colorNumeric(
+  palette = "Blues",
+  domain = df_merged$count
+)
+
+my.choro <- leaflet() %>%
+  addProviderTiles("Esri.WorldStreetMap") %>%
+  setView(lng=-76.13, lat=43.03, zoom = 12) %>%
+  addPolygons(data = df_merged, 
+              fillColor = ~pal(count), 
+              color = "gray80", # you need to use hex colors
+              fillOpacity = 0.7, 
+              weight = 1.5, 
+              smoothFactor = 0.2,
+              popup = popup) %>%
+  
+  addLegend(pal = pal, 
+            values = df_merged$count, 
+            position = "bottomright", 
+            title = "# of Clients",
+            labFormat = labelFormat(suffix = "")) 
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+??) Make a map with multiple layers
 
 ```{r}
 
