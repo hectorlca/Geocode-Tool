@@ -1,4 +1,6 @@
-#### Setup Libraries and Data ####
+#### Setup Libraries and Data. Note, you only need to install packages once. 
+#### After that, you can delete those lines and keep only the ones that start with "library() ####
+
 install.packages("plyr")
 install.packages("maptools")
 install.packages("dplyr")
@@ -12,8 +14,6 @@ install.packages("httr")
 install.packages("leaflet")
 install.packages("reshape2")
 install.packages("acs")
-
-
 
 library(plyr)
 library(maptools)
@@ -30,30 +30,37 @@ library(reshape2)
 library(acs)
 
 
+#### Read in your Data and GIS file. #### 
 
 dat <- read.csv("data/mydata.csv") # Read in your file with Addresses.
 dat <- na.omit(dat) # leaves out rows with missing info.
 
-#####  Product A: Substituted FTP download for tigris tracts() ####
+syr <- tracts(state = 36, county = c("Onondaga",
+                                     "Madison"),
+                                     cb = TRUE) # Get a GIS file with shapes for Census Tracts in the counties you select.
 
-#START TIGRIS Work
-syr <- tracts(state = 36, county = 67, cb = TRUE) # from tigris
 
+#### Geocode addresses using Google Maps ####
 
-# Geocode addresses using Google Maps
 # The following lines will take some time to run, depending on how many addresses you wish to geocode.
-
-#HASHTAGGED OUT WHILE IN DEVELOPMENT AND NEED TO EXPLAIN 
-#HOW TO EITHER START FROM THIS LINE OR SKIP IT.
+# Only need to run once, then you can eithe put a hashtag before the line (like in this sentence) 
 
 
-##### GOOGLE MAPS GEOCODE #### T
 
-mydata.coordinates <- geocode(paste(dat$address, dat$city, dat$state, sep = ", "))
-#write.csv(mydata.coordinates, "geocoded.csv", row.names = FALSE)
+########################################
+mydata.coordinates <- geocode(     #####
+  paste(dat$address,               #####
+        dat$city,                  #####
+        dat$state,                 #####
+        sep = ", "))               #####
+                                   #####
+########################################
 
 
-mydata.coordinates <- read.csv("geocoded.csv")
+write.csv(mydata.coordinates, "geocoded.csv", row.names = FALSE) # This saves the table with coordinates.
+
+
+mydata.coordinates <- read.csv("data/geocoded.csv") # Then you can read the coordinates table back in again.
 
 ### Prepare coordinates data to convert into points in order to plot them ###
 
@@ -69,8 +76,11 @@ mydata.sp <-  SpatialPoints(to.sp,
                                               +towgs84=0,0,0") )
 
 # Find out which tract each point fall into and append the census tract number to original file.
-mydata.tracts <- over(mydata.sp, syr, returnList= FALSE ) # This gets the Census Tract for the address.
+
+mydata.tracts <- over(mydata.sp, syr, returnList = FALSE ) # This gets the Census Tract for the address.
 mydata.withcoords$tract <- mydata.tracts$NAME
+
+
 
 
 
@@ -100,10 +110,6 @@ syr.map <-
 #### Show Product B ####
 
 syr.map
-
-
-
-
 
 
 #### Product C: A heatmap of which Census Tracts your clients are located in. ####

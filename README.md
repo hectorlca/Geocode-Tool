@@ -142,9 +142,4 @@ In this tool, we will use R and RStudio to interface with Google Maps in order t
 
 ***
  
-Okay, now we're ready to get our data in the right place and run the script. 
 
-
-
-Due to the nature of this tool, the user cannot escape at least some interaction with the code that makes it run. The most obvious way 
-This section digs deeper into the first

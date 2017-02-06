@@ -1,0 +1,157 @@
+---
+ title: "Geocode Manual"
+author: "Hector Corrales"
+date: "February 6, 2017"
+output: html_document
+---
+
+1) Install necessary packages
+```{r}
+#### Setup Libraries and Data. Note, you only need to install packages once. 
+#### After that, you can delete those lines and keep only the ones that start with "library() ####
+
+install.packages("plyr")
+install.packages("maptools")
+install.packages("dplyr")
+install.packages("sp")
+install.packages("rjson")
+install.packages("ggmap")
+install.packages("tigris")
+install.packages("RCurl")
+install.packages("rgdal")
+install.packages("httr")
+install.packages("leaflet")
+install.packages("reshape2")
+install.packages("acs")
+```
+
+2) Load the Packages
+```{r}
+library(plyr)
+library(maptools)
+library(dplyr)
+library(sp)
+library(rjson)
+library(ggmap)
+library(tigris)
+library(RCurl)
+library(rgdal)
+library(httr)
+library(leaflet)
+library(reshape2)
+library(acs)
+
+```
+
+3) Read in your data and GIS File with shapes for the Census Tracts
+```{r}
+dat <- read.csv("data/mydata.csv") # Read in your file with Addresses.
+
+syr <- tracts(state = 36, county = c("Onondaga",
+                                     "Madison"),
+                                     cb = TRUE) # Get a GIS file.
+
+
+
+```
+
+4) Geocode your addresses using Google Maps API
+The following chunk of code will take some time to run, depending on how many addresses you wish to geocode. Be patient.
+DO NOT RUN THIS CHUNK IF YOU HAVE RUN IT BEFORE.
+```{r}
+
+mydata.coordinates <- geocode(     
+  paste(dat$address,               
+        dat$city,                  
+        dat$state,                 
+        sep = ", "))
+
+# This following line saves the table with coordinates as an excel file.
+write.csv(mydata.coordinates, "data/geocoded.csv", row.names = FALSE) 
+
+
+```
+
+5) Read in the coordinates you saved above:
+```{r}
+
+mydata.coordinates <- read.csv("data/geocoded.csv") 
+
+
+```
+
+6) Add the coordinates to your file:
+```{r}
+mydata.withcoords <- cbind(dat, mydata.coordinates)
+
+```
+
+7) Check which entries could not be geocoded and save an excel file:
+```{r}
+
+no.na <- na.omit(mydata.withcoords)
+not.found <- setdiff(mydata.withcoords, no.na )
+
+write.csv(not.found, "data/Addresses not found.csv")
+
+rm(dat, mydata.coordinates, not.found)
+
+
+```
+
+
+8) Convert your data to a GIS file with a dot for each address and get Census Tract information.
+```{r}
+
+mydata.withcoords <- na.omit(mydata.withcoords)
+
+to.sp <- data.frame(lon = mydata.withcoords$lon, lat = mydata.withcoords$lat)
+mydata.sp <-  SpatialPoints(to.sp, 
+                            proj4string = CRS("+proj=longlat
+                                              +datum=NAD83 
+                                              +no_defs 
+                                              +ellps=GRS80 
+                                              +towgs84=0,0,0") )
+
+mydata.tracts <- over(mydata.sp, syr, returnList = FALSE ) # This gets the Census Tract for the address.
+mydata.withcoords$tract <- mydata.tracts$NAME
+
+```
+
+
+9) Product 1: Your original file, with coordinates and Census Tracts. Excel file will be saved in the data folder.
+
+```{r}
+write.csv(mydata.withcoords, "data/mygeocodeddata.csv", row.names = FALSE)
+mygisdata <- read.csv("data/mygeocodeddata.csv")
+
+```
+
+10) Product 2: A map with dots. Each point represents a client.
+
+```{r}
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
