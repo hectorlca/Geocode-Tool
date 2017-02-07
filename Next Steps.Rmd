@@ -1,0 +1,61 @@
+---
+title: "Next Steps"
+author: "Hector Corrales"
+date: "February 7, 2017"
+output: html_document
+
+Before Running any chunks here, make sure that you've run the whole Geocode Steps Markdown so you have all the necessary dataframes loaded into the environment. The outputs in this file are meant to be added to the original steps, if compatible or necessary.
+---
+
+
+1) Keep the dot map from the Geocode Steps Markdown file.
+
+```{r}
+
+coordinates(mydata.withcoords) <- ~ lon + lat
+proj4string(mydata.withcoords) <- "+init=epsg:4326"
+
+dot.map <- mapview(mydata.withcoords,
+            map.types = c("Esri.WorldStreetMap",
+                          "CartoDB.Positron",
+                          "OpenStreetMap",
+                          "CartoDB.DarkMatter"),
+            color = "steelblue",
+            lwd = 2.5,
+            layer.name = "All")
+
+dot.map
+
+
+```
+
+
+2) Make a map with multiple layers
+
+```{r}
+
+# Keep map we did above
+
+dot.map
+
+
+# Make second layer: Client with a criminal record.
+filt.layer <- filter(no.na, crecord == 1)
+coordinates(filt.layer) <- ~ lon + lat
+proj4string(filt.layer) <- "+init=epsg:4326"
+
+crecord <- mapview(filt.layer,
+            map.types = c("Esri.WorldStreetMap",
+                          "CartoDB.Positron",
+                          "OpenStreetMap",
+                          "CartoDB.DarkMatter"),
+            color = "steelblue",
+            lwd = 2.5,
+            layer.name = "W/ Criminal Record")
+
+
+# The map will now have two layers. Click the layers button to turn or off.
+dot.map + crecord
+
+```
+

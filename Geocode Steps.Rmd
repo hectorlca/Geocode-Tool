@@ -5,7 +5,7 @@ date: "February 6, 2017"
 output: html_document
 ---
 
-1) Install necessary packages
+1) Install necessary packages. DO NOT RUN THIS CHUNK IF YOU HAVE ALREADY RUN IT.
 ```{r}
 #### Setup Libraries and Data. Note, you only need to install packages once. 
 #### After that, you can delete those lines and keep only the ones that start with "library() ####
@@ -94,9 +94,9 @@ mydata.withcoords <- cbind(dat, mydata.coordinates)
 no.na <- na.omit(mydata.withcoords)
 not.found <- setdiff(mydata.withcoords, no.na )
 
-write.csv(not.found, "data/Addresses not found.csv")
+write.csv(not.found, "data/Addresses not found.csv") # OPEN THIS FILE TO SEE THE ADDRESSES THAT WEREN'T FOUND.
 
-rm(dat, mydata.coordinates, not.found)
+rm(dat, mydata.coordinates)
 
 
 ```
@@ -133,10 +133,6 @@ mygisdata <- read.csv("data/mygeocodeddata.csv")
 
 ```{r}
 
-
-
-
-
 coordinates(mydata.withcoords) <- ~ lon + lat
 proj4string(mydata.withcoords) <- "+init=epsg:4326"
 
@@ -157,8 +153,6 @@ dot.map
                    
 
 ```
-
-
 
 11) Product C: A table with how many clients in each Census Tract
 
@@ -186,14 +180,16 @@ mytract.data # this is the dataframe to show for product C.
 12) Product D: A heatmap of where your clients are located:
 
 ```{r}
+
 #### Show Product D: A heatmap. ####
+
 popup <- paste0("Census Tract: ", df_merged$NAME, "<br>", 
                 "Number of Clients here: ", df_merged$count, ".", "<br>",
                 "THE INFO I WANT TO SEE")
 
 pal <- colorNumeric(
   palette = "Blues",
-  domain = df_merged$count
+  domain = df_merged$count # This is where you choose which values you want to visualize per Census Tract
 )
 
 my.choro <- leaflet() %>%
@@ -208,23 +204,13 @@ my.choro <- leaflet() %>%
               popup = popup) %>%
   
   addLegend(pal = pal, 
-            values = df_merged$count, 
+            values = df_merged$count, # Change your desired values here as well
             position = "bottomright", 
             title = "# of Clients",
             labFormat = labelFormat(suffix = "")) 
 
 
 ```
-
-
-
-
-
-
-
-
-
-
 
 
 ??) Make a map with multiple layers
