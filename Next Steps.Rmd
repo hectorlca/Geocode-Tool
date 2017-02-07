@@ -7,6 +7,41 @@ output: html_document
 Before Running any chunks here, make sure that you've run the whole Geocode Steps Markdown so you have all the necessary dataframes loaded into the environment. The outputs in this file are meant to be added to the original steps, if compatible or necessary.
 ---
 
+How to merge a client dataset with another file by common fields using Madison County DPIL Example
+
+```{r}
+
+madison1 <- read.csv("data/madison1.csv")
+madison2 <- read.csv("data/madison2.csv")
+
+#Using Dplyr's Join
+
+
+
+# OR specify the columns.
+merged <- inner_join(madison1, madison2, 
+                     by = c("FIRSTNAME" = "FIRSTNAME",   
+                            "Birthdate" = "Birthdate"))
+                              
+merged <- merge(madison1, madison2)
+                             
+
+### Check out a list of duplicated entries.
+
+dupes <- merged[duplicated(merged),]
+
+# Remove duplicates from the file:
+
+merged <- unique(merged)
+  
+
+
+
+
+```
+
+
+
 
 1) Keep the dot map from the Geocode Steps Markdown file.
 
