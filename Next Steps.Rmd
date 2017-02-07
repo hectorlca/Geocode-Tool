@@ -14,16 +14,7 @@ How to merge a client dataset with another file by common fields using Madison C
 madison1 <- read.csv("data/madison1.csv")
 madison2 <- read.csv("data/madison2.csv")
 
-#Using Dplyr's Join
-
-
-
-# OR specify the columns.
-merged <- inner_join(madison1, madison2, 
-                     by = c("FIRSTNAME" = "FIRSTNAME",   
-                            "Birthdate" = "Birthdate"))
-                              
-merged <- merge(madison1, madison2)
+merged <- merge(madison1, madison2) # It will detect the columns that both have in common.
                              
 
 ### Check out a list of duplicated entries.
