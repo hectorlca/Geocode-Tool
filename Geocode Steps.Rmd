@@ -10,12 +10,15 @@ output: html_document
 #### Setup Libraries and Data. Note, you only need to install packages once. 
 #### After that, you can delete those lines and keep only the ones that start with "library() ####
 
+install.packages("devtools")
+library(devtools)
+devtools::install_github("dkahle/ggmap")
+
 install.packages("plyr")
 install.packages("maptools")
 install.packages("dplyr")
 install.packages("sp")
 install.packages("rjson")
-install.packages("ggmap")
 install.packages("tigris")
 install.packages("RCurl")
 install.packages("rgdal")
@@ -28,12 +31,13 @@ install.packages("mapview")
 
 2) Load the Packages
 ```{r}
+
+library(ggmap)
 library(plyr)
 library(maptools)
 library(dplyr)
 library(sp)
 library(rjson)
-library(ggmap)
 library(tigris)
 library(RCurl)
 library(rgdal)
@@ -49,9 +53,7 @@ library(mapview)
 ```{r}
 dat <- read.csv("data/mydata.csv") # Read in your file with Addresses.
 
-syr <- tracts(state = 36, county = c("Onondaga",
-                                     "Madison"),
-                                     cb = TRUE) # Get a GIS file.
+syr <- tracts(state = 36, county = "Onondaga", cb = TRUE) # Get a GIS file.
 
 
 
@@ -243,21 +245,6 @@ dot.map + criminals
 ```
 
 
-
-
-Register Google API:
-
-```{r}
-devtools::install_github("dkahle/ggmap")
-
-
-#my.api.key <- "AIzaSyB47ttVaobUsKkFj2L41LFUtunVEYi7LD8"
-my.addresses <- paste(dat$ADDRESS, dat$CITY, dat$STATE, sep = ", ")
-
-# These functions are from the new ggmap 2.7, which is not on CRAN yet.
-register_google(key = 'AIzaSyB47ttVaobUsKkFj2L41LFUtunVEYi7LD8',
-                account_type = "premium", day_limit = 15000)
-```
 
 
 
