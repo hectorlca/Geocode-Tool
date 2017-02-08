@@ -245,6 +245,19 @@ dot.map + criminals
 
 
 
+Register Google API:
+
+```{r}
+devtools::install_github("dkahle/ggmap")
+
+
+#my.api.key <- "AIzaSyB47ttVaobUsKkFj2L41LFUtunVEYi7LD8"
+my.addresses <- paste(dat$ADDRESS, dat$CITY, dat$STATE, sep = ", ")
+
+# These functions are from the new ggmap 2.7, which is not on CRAN yet.
+register_google(key = 'AIzaSyB47ttVaobUsKkFj2L41LFUtunVEYi7LD8',
+                account_type = "premium", day_limit = 15000)
+```
 
 
 
