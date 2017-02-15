@@ -98,7 +98,7 @@ not.found <- setdiff(mydata.withcoords, no.na )
 
 write.csv(not.found, "data/Addresses not found.csv") # OPEN THIS FILE TO SEE THE ADDRESSES THAT WEREN'T FOUND.
 
-rm(dat, mydata.coordinates)
+#rm(dat, mydata.coordinates)
 
 
 ```
@@ -176,6 +176,8 @@ mytract.data <- select(mytract.data, NAME, count)
 
 mytract.data # this is the dataframe to show for product C.
 
+write.csv(mytract.data, "data/mytractdata.csv")
+
 ```
 
 
@@ -211,11 +213,13 @@ my.choro <- leaflet() %>%
             title = "# of Clients",
             labFormat = labelFormat(suffix = "")) 
 
+my.choro
+
 
 ```
 
 
-??) Make a map with multiple layers
+??) Make a map with multiple layers. This is a work in progress and shows only the beggining steps to make a map with multiple layers.
 
 ```{r}
 
@@ -240,7 +244,7 @@ crecord <- mapview(filt.layer,
 
 
 # The map will now have two layers. Click the layers button to turn or off.
-dot.map + criminals
+dot.map + crecord
 
 ```
 
